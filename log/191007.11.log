@@ -1,0 +1,359 @@
+[19-10-7 11:04:59 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#6XXZGJK2qczVxfQcAAAw
+[19-10-7 11:04:59 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#6XXZGJK2qczVxfQcAAAw
+[19-10-7 11:04:59 ] info) [Sync Server : getUserId] ' /SignalServer#6XXZGJK2qczVxfQcAAAw '의 User Id 찾기 성공 : testconsult
+[19-10-7 11:04:59 ] info) [Sync Server : getUserService] ' /SignalServer#6XXZGJK2qczVxfQcAAAw '의 service_type 찾기 성공 : "multi"
+[19-10-7 11:04:59 ] info) [common.service logout] logout success - "testconsult"
+[19-10-7 11:04:59 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 11:04:59 ] info) 소켓접속 : "/SignalServer#0dA9_IL4Cpd2jqZnAAAz"
+[19-10-7 11:05:00 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#sUY4nqZbDnmBCBfdAAAy
+[19-10-7 11:05:00 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#sUY4nqZbDnmBCBfdAAAy
+[19-10-7 11:05:00 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#sUY4nqZbDnmBCBfdAAAy
+[19-10-7 11:05:00 ] warn) logout data.userid 없음.
+[19-10-7 11:05:00 ] info) 소켓접속 : "/SignalServer#jB4sRawQwmyXwpVXAAA0"
+[19-10-7 11:05:01 ] info) [Socket : ' Login ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testconsult : ' testconsult || /SignalServer#0dA9_IL4Cpd2jqZnAAAz '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testconsult","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 11:05:01 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007110501","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:05:01 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 11:05:01 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007110501","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:05:08 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#0dA9_IL4Cpd2jqZnAAAz
+[19-10-7 11:05:08 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#0dA9_IL4Cpd2jqZnAAAz
+[19-10-7 11:05:08 ] info) [Sync Server : getUserId] ' /SignalServer#0dA9_IL4Cpd2jqZnAAAz '의 User Id 찾기 성공 : testconsult
+[19-10-7 11:05:08 ] info) [Sync Server : getUserService] ' /SignalServer#0dA9_IL4Cpd2jqZnAAAz '의 service_type 찾기 성공 : "multi"
+[19-10-7 11:05:08 ] info) 소켓접속 : "/SignalServer#Eybr4Cf4wsKgG6K4AAA1"
+[19-10-7 11:05:08 ] info) [common.service logout] logout success - "testconsult"
+[19-10-7 11:05:08 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 11:05:13 ] info) [Socket : ' Login ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testconsult : ' testconsult || /SignalServer#Eybr4Cf4wsKgG6K4AAA1 '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testconsult","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 11:05:13 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007110513","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:05:13 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 11:05:13 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007110513","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:06:08 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#Eybr4Cf4wsKgG6K4AAA1
+[19-10-7 11:06:08 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#Eybr4Cf4wsKgG6K4AAA1
+[19-10-7 11:06:08 ] info) [Sync Server : getUserId] ' /SignalServer#Eybr4Cf4wsKgG6K4AAA1 '의 User Id 찾기 성공 : testconsult
+[19-10-7 11:06:08 ] info) [Sync Server : getUserService] ' /SignalServer#Eybr4Cf4wsKgG6K4AAA1 '의 service_type 찾기 성공 : "multi"
+[19-10-7 11:06:09 ] info) 소켓접속 : "/SignalServer#kr1nZxtTriaWJDXEAAA2"
+[19-10-7 11:06:09 ] info) [common.service logout] logout success - "testconsult"
+[19-10-7 11:06:09 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 11:06:10 ] info) [Socket : ' Login ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testconsult : ' testconsult || /SignalServer#kr1nZxtTriaWJDXEAAA2 '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testconsult","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 11:06:10 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007110610","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:06:10 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 11:06:10 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007110610","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:08:00 ] info) 16236 is work. workerId : 1 
+[19-10-7 11:08:00 ] info) 소켓접속 : "/SignalServer#TM19AlPsTwVKGA80AAAA"
+[19-10-7 11:08:00 ] info) Process Id : ' 16236
+[19-10-7 11:08:00 ] info) 소켓접속 : "/SignalServer#T9xlnxYXORslVk4RAAAB"
+[19-10-7 11:08:00 ] info) [ ### JANUS > SIGNAL ### ] {
+   "janus": "success",
+   "transaction": "a9ymvsy63P69",
+   "data": {
+      "id": 5830916437382657
+   }
+}
+[19-10-7 11:08:00 ] info) [ ### JANUS > SIGNAL ### ] {
+   "janus": "success",
+   "session_id": 5830916437382657,
+   "transaction": "2H0uKX5LVhQP",
+   "data": {
+      "id": 3189284447932308
+   }
+}
+[19-10-7 11:08:42 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#T9xlnxYXORslVk4RAAAB
+[19-10-7 11:08:42 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#T9xlnxYXORslVk4RAAAB
+[19-10-7 11:08:42 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#T9xlnxYXORslVk4RAAAB
+[19-10-7 11:08:42 ] warn) logout data.userid 없음.
+[19-10-7 11:08:42 ] info) 소켓접속 : "/SignalServer#kHNo2qWUZoEu7xyzAAAC"
+[19-10-7 11:08:42 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#TM19AlPsTwVKGA80AAAA
+[19-10-7 11:08:42 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#TM19AlPsTwVKGA80AAAA
+[19-10-7 11:08:42 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#TM19AlPsTwVKGA80AAAA
+[19-10-7 11:08:42 ] warn) logout data.userid 없음.
+[19-10-7 11:08:42 ] info) 소켓접속 : "/SignalServer#kV5Gnw25jmOnMMr4AAAD"
+[19-10-7 11:08:44 ] info) [Socket : ' Login ' Event / PID : ' 16236  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testconsult : ' testconsult || /SignalServer#kHNo2qWUZoEu7xyzAAAC '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testconsult","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 11:08:44 ] info) [Sync Server : getUserSocketId] + testconsult +의 Socket Id 찾기 성공 : /SignalServer#kr1nZxtTriaWJDXEAAA2
+[19-10-7 11:08:44 ] info) [Socket : ' Login' Event / 다자간 화상회의] *
+* eventOp : '  Login ' *
+ 로그인 성공, 접속해있던 socket 아이디 : "/SignalServer#kr1nZxtTriaWJDXEAAA2"
+[19-10-7 11:08:44 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007110844","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:08:44 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 11:08:44 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007110844","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:08:47 ] info) [Socket : ' Login ' Event / PID : ' 16236  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testuser : ' testuser || /SignalServer#kV5Gnw25jmOnMMr4AAAD '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testuser","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 11:08:47 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007110847","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:08:47 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 11:08:47 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007110847","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:14:54 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#kHNo2qWUZoEu7xyzAAAC
+[19-10-7 11:14:54 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#kHNo2qWUZoEu7xyzAAAC
+[19-10-7 11:14:54 ] info) [Sync Server : getUserId] ' /SignalServer#kHNo2qWUZoEu7xyzAAAC '의 User Id 찾기 성공 : testconsult
+[19-10-7 11:14:54 ] info) [Sync Server : getUserService] ' /SignalServer#kHNo2qWUZoEu7xyzAAAC '의 service_type 찾기 성공 : "multi"
+[19-10-7 11:14:54 ] info) [common.service logout] logout success - "testconsult"
+[19-10-7 11:14:54 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 11:14:54 ] info) 소켓접속 : "/SignalServer#fsynwo40GNWI9FfuAAAE"
+[19-10-7 11:14:56 ] info) [Socket : ' Login ' Event / PID : ' 16236  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testconsult : ' testconsult || /SignalServer#fsynwo40GNWI9FfuAAAE '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testconsult","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 11:14:56 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007111456","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:14:56 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 11:14:56 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007111456","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:17:03 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#fsynwo40GNWI9FfuAAAE
+[19-10-7 11:17:03 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#fsynwo40GNWI9FfuAAAE
+[19-10-7 11:17:03 ] info) [Sync Server : getUserId] ' /SignalServer#fsynwo40GNWI9FfuAAAE '의 User Id 찾기 성공 : testconsult
+[19-10-7 11:17:03 ] info) [Sync Server : getUserService] ' /SignalServer#fsynwo40GNWI9FfuAAAE '의 service_type 찾기 성공 : "multi"
+[19-10-7 11:17:03 ] info) [common.service logout] logout success - "testconsult"
+[19-10-7 11:17:03 ] info) 소켓접속 : "/SignalServer#h7mV-Bi4XQyjZhDmAAAF"
+[19-10-7 11:17:03 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 11:17:04 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#kV5Gnw25jmOnMMr4AAAD
+[19-10-7 11:17:04 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#kV5Gnw25jmOnMMr4AAAD
+[19-10-7 11:17:04 ] info) [Sync Server : getUserId] ' /SignalServer#kV5Gnw25jmOnMMr4AAAD '의 User Id 찾기 성공 : testuser
+[19-10-7 11:17:04 ] info) [Sync Server : getUserService] ' /SignalServer#kV5Gnw25jmOnMMr4AAAD '의 service_type 찾기 성공 : "multi"
+[19-10-7 11:17:04 ] info) [common.service logout] logout success - "testuser"
+[19-10-7 11:17:04 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 11:17:04 ] info) 소켓접속 : "/SignalServer#TDAItlSfNVLPhkItAAAG"
+[19-10-7 11:17:05 ] info) [Socket : ' Login ' Event / PID : ' 16236  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testconsult : ' testconsult || /SignalServer#h7mV-Bi4XQyjZhDmAAAF '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testconsult","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 11:17:05 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007111705","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:17:05 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 11:17:05 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007111705","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:18:45 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#h7mV-Bi4XQyjZhDmAAAF
+[19-10-7 11:18:45 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#h7mV-Bi4XQyjZhDmAAAF
+[19-10-7 11:18:45 ] info) [Sync Server : getUserId] ' /SignalServer#h7mV-Bi4XQyjZhDmAAAF '의 User Id 찾기 성공 : testconsult
+[19-10-7 11:18:45 ] info) [Sync Server : getUserService] ' /SignalServer#h7mV-Bi4XQyjZhDmAAAF '의 service_type 찾기 성공 : "multi"
+[19-10-7 11:18:45 ] info) [common.service logout] logout success - "testconsult"
+[19-10-7 11:18:45 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 11:18:45 ] info) 소켓접속 : "/SignalServer#cfyQjHDvIoBrWzRdAAAH"
+[19-10-7 11:18:46 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#TDAItlSfNVLPhkItAAAG
+[19-10-7 11:18:47 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#TDAItlSfNVLPhkItAAAG
+[19-10-7 11:18:47 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#TDAItlSfNVLPhkItAAAG
+[19-10-7 11:18:47 ] warn) logout data.userid 없음.
+[19-10-7 11:18:47 ] info) 소켓접속 : "/SignalServer#j-_F_3zfHhws09_DAAAI"
+[19-10-7 11:18:47 ] info) [Socket : ' Login ' Event / PID : ' 16236  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testuser : ' testuser || /SignalServer#j-_F_3zfHhws09_DAAAI '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testuser","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 11:18:48 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007111847","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:18:48 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 11:18:48 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007111847","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:18:50 ] info) [Socket : ' Login ' Event / PID : ' 16236  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testconsult : ' testconsult || /SignalServer#cfyQjHDvIoBrWzRdAAAH '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testconsult","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 11:18:50 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007111850","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:18:50 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 11:18:50 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007111850","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:19:34 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#j-_F_3zfHhws09_DAAAI
+[19-10-7 11:19:34 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#j-_F_3zfHhws09_DAAAI
+[19-10-7 11:19:34 ] info) [Sync Server : getUserId] ' /SignalServer#j-_F_3zfHhws09_DAAAI '의 User Id 찾기 성공 : testuser
+[19-10-7 11:19:34 ] info) [Sync Server : getUserService] ' /SignalServer#j-_F_3zfHhws09_DAAAI '의 service_type 찾기 성공 : "multi"
+[19-10-7 11:19:34 ] info) [common.service logout] logout success - "testuser"
+[19-10-7 11:19:34 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 11:19:34 ] info) 소켓접속 : "/SignalServer#7Pyo6eYEHU3PFtuVAAAJ"
+[19-10-7 11:19:36 ] info) [Socket : ' Login ' Event / PID : ' 16236  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testuser : ' testuser || /SignalServer#7Pyo6eYEHU3PFtuVAAAJ '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testuser","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 11:19:36 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007111936","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:19:36 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 11:19:36 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007111936","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:19:39 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#cfyQjHDvIoBrWzRdAAAH
+[19-10-7 11:19:39 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#cfyQjHDvIoBrWzRdAAAH
+[19-10-7 11:19:39 ] info) [Sync Server : getUserId] ' /SignalServer#cfyQjHDvIoBrWzRdAAAH '의 User Id 찾기 성공 : testconsult
+[19-10-7 11:19:39 ] info) [Sync Server : getUserService] ' /SignalServer#cfyQjHDvIoBrWzRdAAAH '의 service_type 찾기 성공 : "multi"
+[19-10-7 11:19:39 ] info) [common.service logout] logout success - "testconsult"
+[19-10-7 11:19:39 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 11:19:39 ] info) 소켓접속 : "/SignalServer#v7gOqS--B1tYsOJxAAAK"
+[19-10-7 11:19:40 ] info) [Socket : ' Login ' Event / PID : ' 16236  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testconsult : ' testconsult || /SignalServer#v7gOqS--B1tYsOJxAAAK '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testconsult","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 11:19:40 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007111940","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:19:40 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 11:19:40 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007111940","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:22:35 ] info) 15612 is work. workerId : 1 
+[19-10-7 11:22:36 ] info) 소켓접속 : "/SignalServer#lgJK5KH6tIIwEMiNAAAA"
+[19-10-7 11:22:36 ] info) Process Id : ' 15612
+[19-10-7 11:22:36 ] info) [ ### JANUS > SIGNAL ### ] {
+   "janus": "success",
+   "transaction": "rNNlqZduuM35",
+   "data": {
+      "id": 6862799984780325
+   }
+}
+[19-10-7 11:22:36 ] info) [ ### JANUS > SIGNAL ### ] {
+   "janus": "success",
+   "session_id": 6862799984780325,
+   "transaction": "HPnfwYr3hbk5",
+   "data": {
+      "id": 66359198494978
+   }
+}
+[19-10-7 11:22:37 ] info) 소켓접속 : "/SignalServer#QgzakSI6IDFVoSs2AAAB"
+[19-10-7 11:22:42 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#lgJK5KH6tIIwEMiNAAAA
+[19-10-7 11:22:42 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#lgJK5KH6tIIwEMiNAAAA
+[19-10-7 11:22:42 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#lgJK5KH6tIIwEMiNAAAA
+[19-10-7 11:22:42 ] warn) logout data.userid 없음.
+[19-10-7 11:22:42 ] info) 소켓접속 : "/SignalServer#jRQZE8MhMGrs2eVtAAAC"
+[19-10-7 11:22:43 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#QgzakSI6IDFVoSs2AAAB
+[19-10-7 11:22:43 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#QgzakSI6IDFVoSs2AAAB
+[19-10-7 11:22:43 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#QgzakSI6IDFVoSs2AAAB
+[19-10-7 11:22:43 ] warn) logout data.userid 없음.
+[19-10-7 11:22:43 ] info) 소켓접속 : "/SignalServer#915IM1J9M8yVLLfMAAAD"
+[19-10-7 11:22:47 ] info) [Socket : ' Login ' Event / PID : ' 15612  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testconsult : ' testconsult || /SignalServer#jRQZE8MhMGrs2eVtAAAC '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testconsult","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 11:22:47 ] info) [Sync Server : getUserSocketId] + testconsult +의 Socket Id 찾기 성공 : /SignalServer#v7gOqS--B1tYsOJxAAAK
+[19-10-7 11:22:47 ] info) [Socket : ' Login' Event / 다자간 화상회의] *
+* eventOp : '  Login ' *
+ 로그인 성공, 접속해있던 socket 아이디 : "/SignalServer#v7gOqS--B1tYsOJxAAAK"
+[19-10-7 11:22:47 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007112247","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:22:47 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 11:22:47 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007112247","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:22:47 ] info) [Signal -> App] {"eventOp":"Alert","reqNo":"201910071122473438","reqDate":"20191007112247","action":"logout"}
+[19-10-7 11:27:10 ] info) 2316 is work. workerId : 1 
+[19-10-7 11:27:18 ] info) 소켓접속 : "/SignalServer#zk7Vf9uojxiVjfJnAAAA"
+[19-10-7 11:27:18 ] info) Process Id : ' 2316
+[19-10-7 11:27:18 ] info) [ ### JANUS > SIGNAL ### ] {
+   "janus": "success",
+   "transaction": "tc4UokhfSdXG",
+   "data": {
+      "id": 3437697819418826
+   }
+}
+[19-10-7 11:27:18 ] info) [ ### JANUS > SIGNAL ### ] {
+   "janus": "success",
+   "session_id": 3437697819418826,
+   "transaction": "MasB7SYm2hUQ",
+   "data": {
+      "id": 3471092513387514
+   }
+}
+[19-10-7 11:27:19 ] info) 소켓접속 : "/SignalServer#JNr5f8RuGX49KU4DAAAB"
+[19-10-7 11:27:26 ] info) [Socket : ' Login ' Event / PID : ' 2316  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testconsult : ' testconsult || /SignalServer#JNr5f8RuGX49KU4DAAAB '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testconsult","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 11:27:26 ] info) [Sync Server : getUserSocketId] + testconsult +의 Socket Id 찾기 성공 : /SignalServer#jRQZE8MhMGrs2eVtAAAC
+[19-10-7 11:27:26 ] info) [Socket : ' Login' Event / 다자간 화상회의] *
+* eventOp : '  Login ' *
+ 로그인 성공, 접속해있던 socket 아이디 : "/SignalServer#jRQZE8MhMGrs2eVtAAAC"
+[19-10-7 11:27:26 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007112726","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:27:26 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 11:27:26 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007112726","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:27:26 ] info) [Signal -> App] {"eventOp":"Alert","reqNo":"201910071127269436","reqDate":"20191007112726","action":"logout"}
+[19-10-7 11:29:57 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#zk7Vf9uojxiVjfJnAAAA
+[19-10-7 11:29:57 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#zk7Vf9uojxiVjfJnAAAA
+[19-10-7 11:29:57 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#zk7Vf9uojxiVjfJnAAAA
+[19-10-7 11:29:57 ] warn) logout data.userid 없음.
+[19-10-7 11:29:59 ] info) 소켓접속 : "/SignalServer#0UtZUVqmtjV2Sg7sAAAC"
+[19-10-7 11:29:59 ] info) [Socket : ' Login ' Event / PID : ' 2316  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testuser : ' testuser || /SignalServer#0UtZUVqmtjV2Sg7sAAAC '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testuser","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 11:29:59 ] info) [Sync Server : getUserSocketId] + testuser +의 Socket Id 찾기 성공 : /SignalServer#7Pyo6eYEHU3PFtuVAAAJ
+[19-10-7 11:29:59 ] info) [Socket : ' Login' Event / 다자간 화상회의] *
+* eventOp : '  Login ' *
+ 로그인 성공, 접속해있던 socket 아이디 : "/SignalServer#7Pyo6eYEHU3PFtuVAAAJ"
+[19-10-7 11:29:59 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007112959","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:29:59 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 11:29:59 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007112959","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 11:29:59 ] info) [Signal -> App] {"eventOp":"Alert","reqNo":"201910071129597252","reqDate":"20191007112959","action":"logout"}
+[19-10-7 11:30:11 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#0UtZUVqmtjV2Sg7sAAAC
+[19-10-7 11:30:11 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#0UtZUVqmtjV2Sg7sAAAC
+[19-10-7 11:30:11 ] info) [Sync Server : getUserId] ' /SignalServer#0UtZUVqmtjV2Sg7sAAAC '의 User Id 찾기 성공 : testuser
+[19-10-7 11:30:12 ] info) [Sync Server : getUserService] ' /SignalServer#0UtZUVqmtjV2Sg7sAAAC '의 service_type 찾기 성공 : "multi"
+[19-10-7 11:30:12 ] info) [common.service logout] logout success - "testuser"
+[19-10-7 11:30:12 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 11:30:14 ] info) 소켓접속 : "/SignalServer#Az4pJy2ssEJcAciTAAAD"
+[19-10-7 11:30:24 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#Az4pJy2ssEJcAciTAAAD
+[19-10-7 11:30:24 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#Az4pJy2ssEJcAciTAAAD
+[19-10-7 11:30:24 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#Az4pJy2ssEJcAciTAAAD
+[19-10-7 11:30:24 ] warn) logout data.userid 없음.
+[19-10-7 11:30:29 ] info) 소켓접속 : "/SignalServer#hNC-A1JabRu_QuI0AAAE"
+[19-10-7 11:30:55 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#hNC-A1JabRu_QuI0AAAE
+[19-10-7 11:30:55 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#hNC-A1JabRu_QuI0AAAE
+[19-10-7 11:30:55 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#hNC-A1JabRu_QuI0AAAE
+[19-10-7 11:30:55 ] warn) logout data.userid 없음.
+[19-10-7 11:30:57 ] info) 소켓접속 : "/SignalServer#LqAwLxKS2iKNSYZFAAAF"

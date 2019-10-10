@@ -1,0 +1,669 @@
+[19-10-7 10:36:13 ] info) 소켓접속 : "/SignalServer#fVa0TrStgqTXaMKZAAAG"
+[19-10-7 10:36:13 ] info) Process Id : ' 8184
+[19-10-7 10:36:13 ] info) [ ### JANUS > SIGNAL ### ] {
+   "janus": "success",
+   "transaction": "RpGyY9UG1MoR",
+   "data": {
+      "id": 8597192548406833
+   }
+}
+[19-10-7 10:36:13 ] info) [ ### JANUS > SIGNAL ### ] {
+   "janus": "success",
+   "session_id": 8597192548406833,
+   "transaction": "gZMEr44IVmnz",
+   "data": {
+      "id": 7449847017692232
+   }
+}
+[19-10-7 10:36:14 ] info) 소켓접속 : "/SignalServer#S3o1B1s1Jtwl9NVoAAAH"
+[19-10-7 10:36:15 ] info) [Socket : ' Login ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testconsult : ' testconsult || /SignalServer#fVa0TrStgqTXaMKZAAAG '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testconsult","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 10:36:15 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007103615","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:36:15 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 10:36:15 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007103615","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:36:27 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#fVa0TrStgqTXaMKZAAAG
+[19-10-7 10:36:27 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#fVa0TrStgqTXaMKZAAAG
+[19-10-7 10:36:27 ] info) [Sync Server : getUserId] ' /SignalServer#fVa0TrStgqTXaMKZAAAG '의 User Id 찾기 성공 : testconsult
+[19-10-7 10:36:27 ] info) [Sync Server : getUserService] ' /SignalServer#fVa0TrStgqTXaMKZAAAG '의 service_type 찾기 성공 : "multi"
+[19-10-7 10:36:27 ] info) 소켓접속 : "/SignalServer#GhcIL5BXtOj0qmqoAAAI"
+[19-10-7 10:36:27 ] info) [common.service logout] logout success - "testconsult"
+[19-10-7 10:36:28 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 10:36:29 ] info) [Socket : ' Login ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testconsult : ' testconsult || /SignalServer#GhcIL5BXtOj0qmqoAAAI '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testconsult","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 10:36:29 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007103629","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:36:29 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 10:36:29 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007103629","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:36:31 ] info) [Socket : ' Login ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testuser : ' testuser || /SignalServer#S3o1B1s1Jtwl9NVoAAAH '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testuser","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 10:36:31 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007103631","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:36:31 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 10:36:31 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007103631","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:36:32 ] info) [Socket : ' Call ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Call '*
+* testconsult : ' testconsult || /SignalServer#GhcIL5BXtOj0qmqoAAAI '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Call","reqNo":2,"reqDate":"20191007","userId":"testconsult","targetId":["testuser"],"serviceType":"call","reqDeviceType":"pc"}
+[19-10-7 10:36:32 ] info) [Socket : '  Call  ' Event / 다자간 화상회의 / Call] *
+ 최초 Call - 요청자 : ', testconsult
+[19-10-7 10:36:32 ] info) [Sync Server : setRoom] Room 저장 성공 : 20191007103632-gPJrHfdjILM7
+[19-10-7 10:36:32 ] info) [Socket : ' Call ' Event / 다자간 화상회의 / Call] *
+ Online인 User : ', ["testuser"]
+[19-10-7 10:36:32 ] info) [Socket : ' Call ' Event / 다자간 화상회의 / Call] *
+ 회의중인 User : ', []
+[19-10-7 10:36:32 ] info) [Socket : ' Call ' Event / 다자간 화상회의 / Call] *
+ Offline인 User : ', [] 
+[19-10-7 10:36:32 ] info) [Signal -> App] {"eventOp":"Call","reqNo":2,"code":"200","message":"OK","useMediaSvr":"N","resDate":"20191007103632","roomId":"20191007103632-gPJrHfdjILM7","status":"accept","start_time":"2019-10-07T01:36:32.827Z","serverInfo":{"_h":0,"_i":1,"_j":{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},"_k":null},"videoWidth":1920,"videoHeight":1080,"videoFramerate":15}
+[19-10-7 10:36:32 ] info) [Socket : ' Call  Event / 다자간 화상회의 / Call] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* 요청자 : ' testconsult ' *
+* eventOp : ' Call  *
+ App으로 전달할 Data : ', {"eventOp":"Call","reqNo":2,"code":"200","message":"OK","useMediaSvr":"N","resDate":"20191007103632","roomId":"20191007103632-gPJrHfdjILM7","status":"accept","start_time":"2019-10-07T01:36:32.827Z","serverInfo":{"_h":0,"_i":1,"_j":{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},"_k":null},"videoWidth":1920,"videoHeight":1080,"videoFramerate":15}
+[19-10-7 10:36:32 ] info) [Sync Server : getUserSocketId] + testuser +의 Socket Id 찾기 성공 : /SignalServer#S3o1B1s1Jtwl9NVoAAAH
+[19-10-7 10:36:35 ] info) [Signal -> App] {"eventOp":"Invite","reqNo":"201910071036325592","serviceType":"video","userId":"testconsult","reqDate":"20191007","serverInfo":{"_h":0,"_i":1,"_j":{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},"_k":null},"isSfu":true,"roomId":"20191007103632-gPJrHfdjILM7","useMediaSvr":"N"}
+[19-10-7 10:36:35 ] info) [Socket : ' Call ' Event / 다자간 화상회의 / Invite] *
+* 현재 처리중 방향 : [Signal -> App (Req)] *
+* 수신자 : ' "testuser"' *
+ Invite 메시지 :  {"eventOp":"Invite","reqNo":"201910071036325592","serviceType":"video","userId":"testconsult","reqDate":"20191007","serverInfo":{"_h":0,"_i":1,"_j":{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},"_k":null},"isSfu":true,"roomId":"20191007103632-gPJrHfdjILM7","useMediaSvr":"N"}
+[19-10-7 10:36:36 ] info) [Socket : ' Join ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Join '*
+* testuser : ' testuser || /SignalServer#S3o1B1s1Jtwl9NVoAAAH '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Join","reqNo":2,"reqDate":"20191007","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","status":"accept"}
+[19-10-7 10:36:36 ] info) [Sync Server : getRoomId3] ' /SignalServer#S3o1B1s1Jtwl9NVoAAAH '로 SESSION_USER_SOCKET_INFO Room id 찾기 성공', 20191007103632-gPJrHfdjILM7
+[19-10-7 10:36:36 ] info) [Sync Server : getUserList] ROOMS_INFO에 ' 20191007103632-gPJrHfdjILM7 '의 유저 목록. : testconsult,testuser
+[19-10-7 10:36:36 ] info) [Signal -> App] {"signalOp":"Presence","userId":"testuser","userName":"","action":"join","userCount":2}
+[19-10-7 10:36:36 ] info) [Socket : ' Join ' Event / 다자간 화상회의 / Presence / 성공] *
+* 현재 처리중 방향 : [Signal -> App (Pass)] *
+ App으로 전달할 Data : ', {"signalOp":"Presence","userId":"testuser","userName":"","action":"join","userCount":2}
+[19-10-7 10:36:36 ] info) [Signal -> App] {"eventOp":"Join","reqNo":2,"code":"200","message":"OK","useMediaSvr":"N","resDate":"20191007103636","roomId":"20191007103632-gPJrHfdjILM7","memberList":["testconsult","testuser"],"admin":{"id":"testconsult","userNumber":"05099887804"},"videoWidth":1920,"videoHeight":1080,"videoFramerate":15}
+[19-10-7 10:36:36 ] info) [Socket : ' Join ' Event / 다자간 화상회의 / 성공] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* 요청자 : ' testuser' *
+* eventOp : ' Join ' *
+ App으로 전달할 Data : ', {"eventOp":"Join","reqNo":2,"code":"200","message":"OK","useMediaSvr":"N","resDate":"20191007103636","roomId":"20191007103632-gPJrHfdjILM7","memberList":["testconsult","testuser"],"admin":{"id":"testconsult","userNumber":"05099887804"},"videoWidth":1920,"videoHeight":1080,"videoFramerate":15}
+[19-10-7 10:36:37 ] info) [Socket : ' SDP ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' SDP '*
+* testuser : ' testuser || /SignalServer#S3o1B1s1Jtwl9NVoAAAH '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"SDP","sdp":{"type":"offer","sdp":"v=0\r\no=- 7997901274363461850 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=msid-semantic: WMS SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:hECU\r\na=ice-pwd:B3B8m+51wn5JtncsTEBQ2nlV\r\na=ice-options:trickle\r\na=fingerprint:sha-256 81:91:12:6D:75:31:78:F6:42:8B:94:1C:DB:D5:51:72:5E:5D:4C:2A:52:71:E9:C7:75:2B:60:A4:9E:10:DE:58\r\na=setup:actpass\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:3 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:5 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=sendrecv\r\na=msid:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69 1cc01cf8-2e5c-4cdf-ab69-22aad2b58f1d\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:110 telephone-event/48000\r\na=rtpmap:112 telephone-event/32000\r\na=rtpmap:113 telephone-event/16000\r\na=rtpmap:126 telephone-event/8000\r\na=ssrc:589334149 cname:SzWHFQVmjNHMLPTS\r\na=ssrc:589334149 msid:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69 1cc01cf8-2e5c-4cdf-ab69-22aad2b58f1d\r\na=ssrc:589334149 mslabel:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69\r\na=ssrc:589334149 label:1cc01cf8-2e5c-4cdf-ab69-22aad2b58f1d\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100 101 102 122 127 121 125 107 108 109 124 120 123 119 114 115 116\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:hECU\r\na=ice-pwd:B3B8m+51wn5JtncsTEBQ2nlV\r\na=ice-options:trickle\r\na=fingerprint:sha-256 81:91:12:6D:75:31:78:F6:42:8B:94:1C:DB:D5:51:72:5E:5D:4C:2A:52:71:E9:C7:75:2B:60:A4:9E:10:DE:58\r\na=setup:actpass\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:13 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:12 urn:3gpp:video-orientation\r\na=extmap:2 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:11 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\r\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\r\na=extmap:8 http://tools.ietf.org/html/draft-ietf-avtext-framemarking-07\r\na=extmap:9 http://www.webrtc.org/experiments/rtp-hdrext/color-space\r\na=extmap:3 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:5 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=sendrecv\r\na=msid:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69 6731fd70-cfb2-48c0-8fbd-b335e1e32211\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 VP8/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:98 VP9/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=fmtp:98 profile-id=0\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:100 VP9/90000\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-fb:100 transport-cc\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=fmtp:100 profile-id=2\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:102 H264/90000\r\na=rtcp-fb:102 goog-remb\r\na=rtcp-fb:102 transport-cc\r\na=rtcp-fb:102 ccm fir\r\na=rtcp-fb:102 nack\r\na=rtcp-fb:102 nack pli\r\na=fmtp:102 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\r\na=rtpmap:122 rtx/90000\r\na=fmtp:122 apt=102\r\na=rtpmap:127 H264/90000\r\na=rtcp-fb:127 goog-remb\r\na=rtcp-fb:127 transport-cc\r\na=rtcp-fb:127 ccm fir\r\na=rtcp-fb:127 nack\r\na=rtcp-fb:127 nack pli\r\na=fmtp:127 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f\r\na=rtpmap:121 rtx/90000\r\na=fmtp:121 apt=127\r\na=rtpmap:125 H264/90000\r\na=rtcp-fb:125 goog-remb\r\na=rtcp-fb:125 transport-cc\r\na=rtcp-fb:125 ccm fir\r\na=rtcp-fb:125 nack\r\na=rtcp-fb:125 nack pli\r\na=fmtp:125 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:107 rtx/90000\r\na=fmtp:107 apt=125\r\na=rtpmap:108 H264/90000\r\na=rtcp-fb:108 goog-remb\r\na=rtcp-fb:108 transport-cc\r\na=rtcp-fb:108 ccm fir\r\na=rtcp-fb:108 nack\r\na=rtcp-fb:108 nack pli\r\na=fmtp:108 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f\r\na=rtpmap:109 rtx/90000\r\na=fmtp:109 apt=108\r\na=rtpmap:124 H264/90000\r\na=rtcp-fb:124 goog-remb\r\na=rtcp-fb:124 transport-cc\r\na=rtcp-fb:124 ccm fir\r\na=rtcp-fb:124 nack\r\na=rtcp-fb:124 nack pli\r\na=fmtp:124 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d0032\r\na=rtpmap:120 rtx/90000\r\na=fmtp:120 apt=124\r\na=rtpmap:123 H264/90000\r\na=rtcp-fb:123 goog-remb\r\na=rtcp-fb:123 transport-cc\r\na=rtcp-fb:123 ccm fir\r\na=rtcp-fb:123 nack\r\na=rtcp-fb:123 nack pli\r\na=fmtp:123 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=640032\r\na=rtpmap:119 rtx/90000\r\na=fmtp:119 apt=123\r\na=rtpmap:114 red/90000\r\na=rtpmap:115 rtx/90000\r\na=fmtp:115 apt=114\r\na=rtpmap:116 ulpfec/90000\r\na=ssrc-group:FID 3556775416 65216660\r\na=ssrc:3556775416 cname:SzWHFQVmjNHMLPTS\r\na=ssrc:3556775416 msid:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69 6731fd70-cfb2-48c0-8fbd-b335e1e32211\r\na=ssrc:3556775416 mslabel:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69\r\na=ssrc:3556775416 label:6731fd70-cfb2-48c0-8fbd-b335e1e32211\r\na=ssrc:65216660 cname:SzWHFQVmjNHMLPTS\r\na=ssrc:65216660 msid:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69 6731fd70-cfb2-48c0-8fbd-b335e1e32211\r\na=ssrc:65216660 mslabel:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69\r\na=ssrc:65216660 label:6731fd70-cfb2-48c0-8fbd-b335e1e32211\r\n"},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":3,"reqDate":"20191007"}
+[19-10-7 10:36:37 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* testuser : ' testuser || /SignalServer#S3o1B1s1Jtwl9NVoAAAH '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","candidate":{"candidate":"candidate:2664784585 1 udp 2122260223 192.168.2.206 61908 typ host generation 0 ufrag hECU network-id 1","sdpMid":"0","sdpMLineIndex":0},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":4,"reqDate":"20191007"}
+[19-10-7 10:36:37 ] info) [Sync Server : getUserList] ROOMS_INFO에 ' 20191007103632-gPJrHfdjILM7 '의 유저 목록. : testconsult,testuser
+[19-10-7 10:36:37 ] info) [Signal -> App] {"eventOp":"SDP","sdp":{"type":"offer","sdp":"v=0\r\no=- 7997901274363461850 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=msid-semantic: WMS SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:hECU\r\na=ice-pwd:B3B8m+51wn5JtncsTEBQ2nlV\r\na=ice-options:trickle\r\na=fingerprint:sha-256 81:91:12:6D:75:31:78:F6:42:8B:94:1C:DB:D5:51:72:5E:5D:4C:2A:52:71:E9:C7:75:2B:60:A4:9E:10:DE:58\r\na=setup:actpass\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:3 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:5 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=sendrecv\r\na=msid:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69 1cc01cf8-2e5c-4cdf-ab69-22aad2b58f1d\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:110 telephone-event/48000\r\na=rtpmap:112 telephone-event/32000\r\na=rtpmap:113 telephone-event/16000\r\na=rtpmap:126 telephone-event/8000\r\na=ssrc:589334149 cname:SzWHFQVmjNHMLPTS\r\na=ssrc:589334149 msid:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69 1cc01cf8-2e5c-4cdf-ab69-22aad2b58f1d\r\na=ssrc:589334149 mslabel:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69\r\na=ssrc:589334149 label:1cc01cf8-2e5c-4cdf-ab69-22aad2b58f1d\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100 101 102 122 127 121 125 107 108 109 124 120 123 119 114 115 116\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:hECU\r\na=ice-pwd:B3B8m+51wn5JtncsTEBQ2nlV\r\na=ice-options:trickle\r\na=fingerprint:sha-256 81:91:12:6D:75:31:78:F6:42:8B:94:1C:DB:D5:51:72:5E:5D:4C:2A:52:71:E9:C7:75:2B:60:A4:9E:10:DE:58\r\na=setup:actpass\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:13 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:12 urn:3gpp:video-orientation\r\na=extmap:2 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:11 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\r\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\r\na=extmap:8 http://tools.ietf.org/html/draft-ietf-avtext-framemarking-07\r\na=extmap:9 http://www.webrtc.org/experiments/rtp-hdrext/color-space\r\na=extmap:3 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:5 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=sendrecv\r\na=msid:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69 6731fd70-cfb2-48c0-8fbd-b335e1e32211\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 VP8/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:98 VP9/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=fmtp:98 profile-id=0\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:100 VP9/90000\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-fb:100 transport-cc\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=fmtp:100 profile-id=2\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:102 H264/90000\r\na=rtcp-fb:102 goog-remb\r\na=rtcp-fb:102 transport-cc\r\na=rtcp-fb:102 ccm fir\r\na=rtcp-fb:102 nack\r\na=rtcp-fb:102 nack pli\r\na=fmtp:102 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\r\na=rtpmap:122 rtx/90000\r\na=fmtp:122 apt=102\r\na=rtpmap:127 H264/90000\r\na=rtcp-fb:127 goog-remb\r\na=rtcp-fb:127 transport-cc\r\na=rtcp-fb:127 ccm fir\r\na=rtcp-fb:127 nack\r\na=rtcp-fb:127 nack pli\r\na=fmtp:127 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f\r\na=rtpmap:121 rtx/90000\r\na=fmtp:121 apt=127\r\na=rtpmap:125 H264/90000\r\na=rtcp-fb:125 goog-remb\r\na=rtcp-fb:125 transport-cc\r\na=rtcp-fb:125 ccm fir\r\na=rtcp-fb:125 nack\r\na=rtcp-fb:125 nack pli\r\na=fmtp:125 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:107 rtx/90000\r\na=fmtp:107 apt=125\r\na=rtpmap:108 H264/90000\r\na=rtcp-fb:108 goog-remb\r\na=rtcp-fb:108 transport-cc\r\na=rtcp-fb:108 ccm fir\r\na=rtcp-fb:108 nack\r\na=rtcp-fb:108 nack pli\r\na=fmtp:108 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f\r\na=rtpmap:109 rtx/90000\r\na=fmtp:109 apt=108\r\na=rtpmap:124 H264/90000\r\na=rtcp-fb:124 goog-remb\r\na=rtcp-fb:124 transport-cc\r\na=rtcp-fb:124 ccm fir\r\na=rtcp-fb:124 nack\r\na=rtcp-fb:124 nack pli\r\na=fmtp:124 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d0032\r\na=rtpmap:120 rtx/90000\r\na=fmtp:120 apt=124\r\na=rtpmap:123 H264/90000\r\na=rtcp-fb:123 goog-remb\r\na=rtcp-fb:123 transport-cc\r\na=rtcp-fb:123 ccm fir\r\na=rtcp-fb:123 nack\r\na=rtcp-fb:123 nack pli\r\na=fmtp:123 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=640032\r\na=rtpmap:119 rtx/90000\r\na=fmtp:119 apt=123\r\na=rtpmap:114 red/90000\r\na=rtpmap:115 rtx/90000\r\na=fmtp:115 apt=114\r\na=rtpmap:116 ulpfec/90000\r\na=ssrc-group:FID 3556775416 65216660\r\na=ssrc:3556775416 cname:SzWHFQVmjNHMLPTS\r\na=ssrc:3556775416 msid:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69 6731fd70-cfb2-48c0-8fbd-b335e1e32211\r\na=ssrc:3556775416 mslabel:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69\r\na=ssrc:3556775416 label:6731fd70-cfb2-48c0-8fbd-b335e1e32211\r\na=ssrc:65216660 cname:SzWHFQVmjNHMLPTS\r\na=ssrc:65216660 msid:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69 6731fd70-cfb2-48c0-8fbd-b335e1e32211\r\na=ssrc:65216660 mslabel:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69\r\na=ssrc:65216660 label:6731fd70-cfb2-48c0-8fbd-b335e1e32211\r\n"},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036376166","reqDate":"20191007"}
+[19-10-7 10:36:37 ] info) [Socket : 'SDP ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Req)] *
+* eventOp : ' SDP ' *
+ 1:1 P2P 상황. ' + testuser+ '가 보낸 SDP를 상대에게 전달중. 
+ ReqNo 생성 완료. App으로 전달할 Data : ', {"eventOp":"SDP","sdp":{"type":"offer","sdp":"v=0\r\no=- 7997901274363461850 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=msid-semantic: WMS SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:hECU\r\na=ice-pwd:B3B8m+51wn5JtncsTEBQ2nlV\r\na=ice-options:trickle\r\na=fingerprint:sha-256 81:91:12:6D:75:31:78:F6:42:8B:94:1C:DB:D5:51:72:5E:5D:4C:2A:52:71:E9:C7:75:2B:60:A4:9E:10:DE:58\r\na=setup:actpass\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:3 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:5 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=sendrecv\r\na=msid:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69 1cc01cf8-2e5c-4cdf-ab69-22aad2b58f1d\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:110 telephone-event/48000\r\na=rtpmap:112 telephone-event/32000\r\na=rtpmap:113 telephone-event/16000\r\na=rtpmap:126 telephone-event/8000\r\na=ssrc:589334149 cname:SzWHFQVmjNHMLPTS\r\na=ssrc:589334149 msid:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69 1cc01cf8-2e5c-4cdf-ab69-22aad2b58f1d\r\na=ssrc:589334149 mslabel:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69\r\na=ssrc:589334149 label:1cc01cf8-2e5c-4cdf-ab69-22aad2b58f1d\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100 101 102 122 127 121 125 107 108 109 124 120 123 119 114 115 116\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:hECU\r\na=ice-pwd:B3B8m+51wn5JtncsTEBQ2nlV\r\na=ice-options:trickle\r\na=fingerprint:sha-256 81:91:12:6D:75:31:78:F6:42:8B:94:1C:DB:D5:51:72:5E:5D:4C:2A:52:71:E9:C7:75:2B:60:A4:9E:10:DE:58\r\na=setup:actpass\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:13 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:12 urn:3gpp:video-orientation\r\na=extmap:2 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:11 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\r\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\r\na=extmap:8 http://tools.ietf.org/html/draft-ietf-avtext-framemarking-07\r\na=extmap:9 http://www.webrtc.org/experiments/rtp-hdrext/color-space\r\na=extmap:3 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:5 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=sendrecv\r\na=msid:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69 6731fd70-cfb2-48c0-8fbd-b335e1e32211\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 VP8/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:98 VP9/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=fmtp:98 profile-id=0\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:100 VP9/90000\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-fb:100 transport-cc\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=fmtp:100 profile-id=2\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:102 H264/90000\r\na=rtcp-fb:102 goog-remb\r\na=rtcp-fb:102 transport-cc\r\na=rtcp-fb:102 ccm fir\r\na=rtcp-fb:102 nack\r\na=rtcp-fb:102 nack pli\r\na=fmtp:102 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\r\na=rtpmap:122 rtx/90000\r\na=fmtp:122 apt=102\r\na=rtpmap:127 H264/90000\r\na=rtcp-fb:127 goog-remb\r\na=rtcp-fb:127 transport-cc\r\na=rtcp-fb:127 ccm fir\r\na=rtcp-fb:127 nack\r\na=rtcp-fb:127 nack pli\r\na=fmtp:127 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f\r\na=rtpmap:121 rtx/90000\r\na=fmtp:121 apt=127\r\na=rtpmap:125 H264/90000\r\na=rtcp-fb:125 goog-remb\r\na=rtcp-fb:125 transport-cc\r\na=rtcp-fb:125 ccm fir\r\na=rtcp-fb:125 nack\r\na=rtcp-fb:125 nack pli\r\na=fmtp:125 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:107 rtx/90000\r\na=fmtp:107 apt=125\r\na=rtpmap:108 H264/90000\r\na=rtcp-fb:108 goog-remb\r\na=rtcp-fb:108 transport-cc\r\na=rtcp-fb:108 ccm fir\r\na=rtcp-fb:108 nack\r\na=rtcp-fb:108 nack pli\r\na=fmtp:108 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f\r\na=rtpmap:109 rtx/90000\r\na=fmtp:109 apt=108\r\na=rtpmap:124 H264/90000\r\na=rtcp-fb:124 goog-remb\r\na=rtcp-fb:124 transport-cc\r\na=rtcp-fb:124 ccm fir\r\na=rtcp-fb:124 nack\r\na=rtcp-fb:124 nack pli\r\na=fmtp:124 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d0032\r\na=rtpmap:120 rtx/90000\r\na=fmtp:120 apt=124\r\na=rtpmap:123 H264/90000\r\na=rtcp-fb:123 goog-remb\r\na=rtcp-fb:123 transport-cc\r\na=rtcp-fb:123 ccm fir\r\na=rtcp-fb:123 nack\r\na=rtcp-fb:123 nack pli\r\na=fmtp:123 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=640032\r\na=rtpmap:119 rtx/90000\r\na=fmtp:119 apt=123\r\na=rtpmap:114 red/90000\r\na=rtpmap:115 rtx/90000\r\na=fmtp:115 apt=114\r\na=rtpmap:116 ulpfec/90000\r\na=ssrc-group:FID 3556775416 65216660\r\na=ssrc:3556775416 cname:SzWHFQVmjNHMLPTS\r\na=ssrc:3556775416 msid:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69 6731fd70-cfb2-48c0-8fbd-b335e1e32211\r\na=ssrc:3556775416 mslabel:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69\r\na=ssrc:3556775416 label:6731fd70-cfb2-48c0-8fbd-b335e1e32211\r\na=ssrc:65216660 cname:SzWHFQVmjNHMLPTS\r\na=ssrc:65216660 msid:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69 6731fd70-cfb2-48c0-8fbd-b335e1e32211\r\na=ssrc:65216660 mslabel:SCBJkazgKevq2hlm8fOwgYwso0hq1vJ98f69\r\na=ssrc:65216660 label:6731fd70-cfb2-48c0-8fbd-b335e1e32211\r\n"},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036376166","reqDate":"20191007"}
+[19-10-7 10:36:37 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* testuser : ' testuser || /SignalServer#S3o1B1s1Jtwl9NVoAAAH '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","candidate":{"candidate":"candidate:2664784585 1 udp 2122260223 192.168.2.206 61909 typ host generation 0 ufrag hECU network-id 1","sdpMid":"1","sdpMLineIndex":1},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":5,"reqDate":"20191007"}
+[19-10-7 10:36:37 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* testuser : ' testuser || /SignalServer#S3o1B1s1Jtwl9NVoAAAH '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","candidate":{"candidate":"candidate:530408573 1 udp 1686052607 124.194.123.242 61908 typ srflx raddr 192.168.2.206 rport 61908 generation 0 ufrag hECU network-id 1","sdpMid":"0","sdpMLineIndex":0},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":6,"reqDate":"20191007"}
+[19-10-7 10:36:37 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* testuser : ' testuser || /SignalServer#S3o1B1s1Jtwl9NVoAAAH '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","candidate":{"candidate":"candidate:530408573 1 udp 1686052607 124.194.123.242 61909 typ srflx raddr 192.168.2.206 rport 61909 generation 0 ufrag hECU network-id 1","sdpMid":"1","sdpMLineIndex":1},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":7,"reqDate":"20191007"}
+[19-10-7 10:36:37 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* testuser : ' testuser || /SignalServer#S3o1B1s1Jtwl9NVoAAAH '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","candidate":{"candidate":"candidate:305159002 1 udp 41885439 106.240.247.44 46771 typ relay raddr 124.194.123.242 rport 61908 generation 0 ufrag hECU network-id 1","sdpMid":"0","sdpMLineIndex":0},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":8,"reqDate":"20191007"}
+[19-10-7 10:36:37 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* testuser : ' testuser || /SignalServer#S3o1B1s1Jtwl9NVoAAAH '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","candidate":{"candidate":"candidate:305159002 1 udp 41885439 106.240.247.44 46127 typ relay raddr 124.194.123.242 rport 61909 generation 0 ufrag hECU network-id 1","sdpMid":"1","sdpMLineIndex":1},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":9,"reqDate":"20191007"}
+[19-10-7 10:36:37 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* testuser : ' testuser || /SignalServer#S3o1B1s1Jtwl9NVoAAAH '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","candidate":{"candidate":"candidate:3495337529 1 tcp 1518280447 192.168.2.206 9 typ host tcptype active generation 0 ufrag hECU network-id 1","sdpMid":"0","sdpMLineIndex":0},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":10,"reqDate":"20191007"}
+[19-10-7 10:36:37 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* testuser : ' testuser || /SignalServer#S3o1B1s1Jtwl9NVoAAAH '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","candidate":{"candidate":"candidate:3495337529 1 tcp 1518280447 192.168.2.206 9 typ host tcptype active generation 0 ufrag hECU network-id 1","sdpMid":"1","sdpMLineIndex":1},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":11,"reqDate":"20191007"}
+[19-10-7 10:36:37 ] info) [Sync Server : getUserList] ROOMS_INFO에 ' 20191007103632-gPJrHfdjILM7 '의 유저 목록. : testconsult,testuser
+[19-10-7 10:36:37 ] info) [Signal -> App] {"eventOp":"Candidate","candidate":{"candidate":"candidate:2664784585 1 udp 2122260223 192.168.2.206 61908 typ host generation 0 ufrag hECU network-id 1","sdpMid":"0","sdpMLineIndex":0},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036374832","reqDate":"20191007"}
+[19-10-7 10:36:37 ] info) [Socket : 'Candidate ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Req)] *
+* Candidate 전달요청자 : ' testuser ' *
+* eventOp : ' Candidate ' *
+ 1:1 P2P 상황. ' testuser '가 보낸 Candidate를 상대에게 전달중. 
+ ReqNo 생성 완료. App으로 전달할 Data : ', {"eventOp":"Candidate","candidate":{"candidate":"candidate:2664784585 1 udp 2122260223 192.168.2.206 61908 typ host generation 0 ufrag hECU network-id 1","sdpMid":"0","sdpMLineIndex":0},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036374832","reqDate":"20191007"}
+[19-10-7 10:36:37 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* undefined : ' undefined || /SignalServer#GhcIL5BXtOj0qmqoAAAI '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036374832","resDate":"20191007","code":"200"}
+[19-10-7 10:36:37 ] info) [Sync Server : getUserList] ROOMS_INFO에 ' 20191007103632-gPJrHfdjILM7 '의 유저 목록. : testconsult,testuser
+[19-10-7 10:36:37 ] info) [Sync Server : getUserList] ROOMS_INFO에 ' 20191007103632-gPJrHfdjILM7 '의 유저 목록. : testconsult,testuser
+[19-10-7 10:36:37 ] info) [Sync Server : getUserList] ROOMS_INFO에 ' 20191007103632-gPJrHfdjILM7 '의 유저 목록. : testconsult,testuser
+[19-10-7 10:36:37 ] info) [Signal -> App] {"eventOp":"Candidate","candidate":{"candidate":"candidate:2664784585 1 udp 2122260223 192.168.2.206 61909 typ host generation 0 ufrag hECU network-id 1","sdpMid":"1","sdpMLineIndex":1},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036370240","reqDate":"20191007"}
+[19-10-7 10:36:37 ] info) [Socket : 'Candidate ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Req)] *
+* Candidate 전달요청자 : ' testuser ' *
+* eventOp : ' Candidate ' *
+ 1:1 P2P 상황. ' testuser '가 보낸 Candidate를 상대에게 전달중. 
+ ReqNo 생성 완료. App으로 전달할 Data : ', {"eventOp":"Candidate","candidate":{"candidate":"candidate:2664784585 1 udp 2122260223 192.168.2.206 61909 typ host generation 0 ufrag hECU network-id 1","sdpMid":"1","sdpMLineIndex":1},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036370240","reqDate":"20191007"}
+[19-10-7 10:36:37 ] info) [Signal -> App] {"eventOp":"Candidate","candidate":{"candidate":"candidate:530408573 1 udp 1686052607 124.194.123.242 61908 typ srflx raddr 192.168.2.206 rport 61908 generation 0 ufrag hECU network-id 1","sdpMid":"0","sdpMLineIndex":0},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036376588","reqDate":"20191007"}
+[19-10-7 10:36:37 ] info) [Socket : 'Candidate ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Req)] *
+* Candidate 전달요청자 : ' testuser ' *
+* eventOp : ' Candidate ' *
+ 1:1 P2P 상황. ' testuser '가 보낸 Candidate를 상대에게 전달중. 
+ ReqNo 생성 완료. App으로 전달할 Data : ', {"eventOp":"Candidate","candidate":{"candidate":"candidate:530408573 1 udp 1686052607 124.194.123.242 61908 typ srflx raddr 192.168.2.206 rport 61908 generation 0 ufrag hECU network-id 1","sdpMid":"0","sdpMLineIndex":0},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036376588","reqDate":"20191007"}
+[19-10-7 10:36:37 ] info) [Signal -> App] {"eventOp":"Candidate","candidate":{"candidate":"candidate:530408573 1 udp 1686052607 124.194.123.242 61909 typ srflx raddr 192.168.2.206 rport 61909 generation 0 ufrag hECU network-id 1","sdpMid":"1","sdpMLineIndex":1},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036373408","reqDate":"20191007"}
+[19-10-7 10:36:37 ] info) [Socket : 'Candidate ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Req)] *
+* Candidate 전달요청자 : ' testuser ' *
+* eventOp : ' Candidate ' *
+ 1:1 P2P 상황. ' testuser '가 보낸 Candidate를 상대에게 전달중. 
+ ReqNo 생성 완료. App으로 전달할 Data : ', {"eventOp":"Candidate","candidate":{"candidate":"candidate:530408573 1 udp 1686052607 124.194.123.242 61909 typ srflx raddr 192.168.2.206 rport 61909 generation 0 ufrag hECU network-id 1","sdpMid":"1","sdpMLineIndex":1},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036373408","reqDate":"20191007"}
+[19-10-7 10:36:38 ] info) [Sync Server : getUserList] ROOMS_INFO에 ' 20191007103632-gPJrHfdjILM7 '의 유저 목록. : testconsult,testuser
+[19-10-7 10:36:38 ] info) [Signal -> App] {"eventOp":"Candidate","candidate":{"candidate":"candidate:305159002 1 udp 41885439 106.240.247.44 46771 typ relay raddr 124.194.123.242 rport 61908 generation 0 ufrag hECU network-id 1","sdpMid":"0","sdpMLineIndex":0},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036380750","reqDate":"20191007"}
+[19-10-7 10:36:38 ] info) [Socket : 'Candidate ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Req)] *
+* Candidate 전달요청자 : ' testuser ' *
+* eventOp : ' Candidate ' *
+ 1:1 P2P 상황. ' testuser '가 보낸 Candidate를 상대에게 전달중. 
+ ReqNo 생성 완료. App으로 전달할 Data : ', {"eventOp":"Candidate","candidate":{"candidate":"candidate:305159002 1 udp 41885439 106.240.247.44 46771 typ relay raddr 124.194.123.242 rport 61908 generation 0 ufrag hECU network-id 1","sdpMid":"0","sdpMLineIndex":0},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036380750","reqDate":"20191007"}
+[19-10-7 10:36:38 ] info) [Sync Server : getUserList] ROOMS_INFO에 ' 20191007103632-gPJrHfdjILM7 '의 유저 목록. : testconsult,testuser
+[19-10-7 10:36:38 ] info) [Sync Server : getUserList] ROOMS_INFO에 ' 20191007103632-gPJrHfdjILM7 '의 유저 목록. : testconsult,testuser
+[19-10-7 10:36:38 ] info) [Sync Server : getUserList] ROOMS_INFO에 ' 20191007103632-gPJrHfdjILM7 '의 유저 목록. : testconsult,testuser
+[19-10-7 10:36:38 ] info) [Socket : ' SDP ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' SDP '*
+* testconsult : ' testconsult || /SignalServer#GhcIL5BXtOj0qmqoAAAI '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"SDP","reqNo":3,"userId":"testconsult","reqDate":"20191007","sdp":{"type":"answer","sdp":"v=0\r\no=- 4682644940494179617 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=msid-semantic: WMS wpxld06Bw57JJRF3uQw80Hq9e8HFUwNUE5hS\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:gKOo\r\na=ice-pwd:khl4xU55qUPtnQ+JUAdpblcG\r\na=ice-options:trickle\r\na=fingerprint:sha-256 CD:B1:4D:11:38:AF:57:6E:49:1F:9B:80:B7:86:41:1C:22:DC:0A:96:48:90:5A:73:2C:E7:D7:30:C3:33:30:A0\r\na=setup:active\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:3 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:5 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:110 telephone-event/48000\r\na=rtpmap:112 telephone-event/32000\r\na=rtpmap:113 telephone-event/16000\r\na=rtpmap:126 telephone-event/8000\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100 101 102 122 127 121 125 107 108 109 124 120 123 119 114 115 116\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:gKOo\r\na=ice-pwd:khl4xU55qUPtnQ+JUAdpblcG\r\na=ice-options:trickle\r\na=fingerprint:sha-256 CD:B1:4D:11:38:AF:57:6E:49:1F:9B:80:B7:86:41:1C:22:DC:0A:96:48:90:5A:73:2C:E7:D7:30:C3:33:30:A0\r\na=setup:active\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:13 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:12 urn:3gpp:video-orientation\r\na=extmap:2 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:11 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\r\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\r\na=extmap:8 http://tools.ietf.org/html/draft-ietf-avtext-framemarking-07\r\na=extmap:9 http://www.webrtc.org/experiments/rtp-hdrext/color-space\r\na=extmap:3 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:5 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=sendrecv\r\na=msid:wpxld06Bw57JJRF3uQw80Hq9e8HFUwNUE5hS cb687ad6-980e-4f3a-a0b6-847461c5811d\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 VP8/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:98 VP9/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=fmtp:98 profile-id=0\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:100 VP9/90000\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-fb:100 transport-cc\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=fmtp:100 profile-id=2\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:102 H264/90000\r\na=rtcp-fb:102 goog-remb\r\na=rtcp-fb:102 transport-cc\r\na=rtcp-fb:102 ccm fir\r\na=rtcp-fb:102 nack\r\na=rtcp-fb:102 nack pli\r\na=fmtp:102 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\r\na=rtpmap:122 rtx/90000\r\na=fmtp:122 apt=102\r\na=rtpmap:127 H264/90000\r\na=rtcp-fb:127 goog-remb\r\na=rtcp-fb:127 transport-cc\r\na=rtcp-fb:127 ccm fir\r\na=rtcp-fb:127 nack\r\na=rtcp-fb:127 nack pli\r\na=fmtp:127 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f\r\na=rtpmap:121 rtx/90000\r\na=fmtp:121 apt=127\r\na=rtpmap:125 H264/90000\r\na=rtcp-fb:125 goog-remb\r\na=rtcp-fb:125 transport-cc\r\na=rtcp-fb:125 ccm fir\r\na=rtcp-fb:125 nack\r\na=rtcp-fb:125 nack pli\r\na=fmtp:125 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:107 rtx/90000\r\na=fmtp:107 apt=125\r\na=rtpmap:108 H264/90000\r\na=rtcp-fb:108 goog-remb\r\na=rtcp-fb:108 transport-cc\r\na=rtcp-fb:108 ccm fir\r\na=rtcp-fb:108 nack\r\na=rtcp-fb:108 nack pli\r\na=fmtp:108 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f\r\na=rtpmap:109 rtx/90000\r\na=fmtp:109 apt=108\r\na=rtpmap:124 H264/90000\r\na=rtcp-fb:124 goog-remb\r\na=rtcp-fb:124 transport-cc\r\na=rtcp-fb:124 ccm fir\r\na=rtcp-fb:124 nack\r\na=rtcp-fb:124 nack pli\r\na=fmtp:124 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d0032\r\na=rtpmap:120 rtx/90000\r\na=fmtp:120 apt=124\r\na=rtpmap:123 H264/90000\r\na=rtcp-fb:123 goog-remb\r\na=rtcp-fb:123 transport-cc\r\na=rtcp-fb:123 ccm fir\r\na=rtcp-fb:123 nack\r\na=rtcp-fb:123 nack pli\r\na=fmtp:123 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=640032\r\na=rtpmap:119 rtx/90000\r\na=fmtp:119 apt=123\r\na=rtpmap:114 red/90000\r\na=rtpmap:115 rtx/90000\r\na=fmtp:115 apt=114\r\na=rtpmap:116 ulpfec/90000\r\na=ssrc-group:FID 2869985701 3663164781\r\na=ssrc:2869985701 cname:lZE4eeOeTYGb3rIw\r\na=ssrc:3663164781 cname:lZE4eeOeTYGb3rIw\r\n"},"roomId":"20191007103632-gPJrHfdjILM7","usage":"cam","useMediaSvr":"N"}
+[19-10-7 10:36:38 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* undefined : ' undefined || /SignalServer#GhcIL5BXtOj0qmqoAAAI '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036370240","resDate":"20191007","code":"200"}
+[19-10-7 10:36:38 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* testconsult : ' testconsult || /SignalServer#GhcIL5BXtOj0qmqoAAAI '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","reqNo":4,"userId":"testconsult","reqDate":"20191007","candidate":{"candidate":"candidate:2664784585 1 udp 2122260223 192.168.2.206 61910 typ host generation 0 ufrag gKOo network-id 1","sdpMid":"0","sdpMLineIndex":0},"roomId":"20191007103632-gPJrHfdjILM7","usage":"cam","useMediaSvr":"N"}
+[19-10-7 10:36:38 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* testconsult : ' testconsult || /SignalServer#GhcIL5BXtOj0qmqoAAAI '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","reqNo":5,"userId":"testconsult","reqDate":"20191007","candidate":{"candidate":"candidate:530408573 1 udp 1686052607 124.194.123.242 61910 typ srflx raddr 192.168.2.206 rport 61910 generation 0 ufrag gKOo network-id 1","sdpMid":"0","sdpMLineIndex":0},"roomId":"20191007103632-gPJrHfdjILM7","usage":"cam","useMediaSvr":"N"}
+[19-10-7 10:36:38 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* undefined : ' undefined || /SignalServer#GhcIL5BXtOj0qmqoAAAI '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036376588","resDate":"20191007","code":"200"}
+[19-10-7 10:36:38 ] info) [Signal -> App] {"eventOp":"Candidate","candidate":{"candidate":"candidate:305159002 1 udp 41885439 106.240.247.44 46127 typ relay raddr 124.194.123.242 rport 61909 generation 0 ufrag hECU network-id 1","sdpMid":"1","sdpMLineIndex":1},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036385316","reqDate":"20191007"}
+[19-10-7 10:36:38 ] info) [Socket : 'Candidate ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Req)] *
+* Candidate 전달요청자 : ' testuser ' *
+* eventOp : ' Candidate ' *
+ 1:1 P2P 상황. ' testuser '가 보낸 Candidate를 상대에게 전달중. 
+ ReqNo 생성 완료. App으로 전달할 Data : ', {"eventOp":"Candidate","candidate":{"candidate":"candidate:305159002 1 udp 41885439 106.240.247.44 46127 typ relay raddr 124.194.123.242 rport 61909 generation 0 ufrag hECU network-id 1","sdpMid":"1","sdpMLineIndex":1},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036385316","reqDate":"20191007"}
+[19-10-7 10:36:38 ] info) [Signal -> App] {"eventOp":"Candidate","candidate":{"candidate":"candidate:3495337529 1 tcp 1518280447 192.168.2.206 9 typ host tcptype active generation 0 ufrag hECU network-id 1","sdpMid":"0","sdpMLineIndex":0},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036383272","reqDate":"20191007"}
+[19-10-7 10:36:38 ] info) [Socket : 'Candidate ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Req)] *
+* Candidate 전달요청자 : ' testuser ' *
+* eventOp : ' Candidate ' *
+ 1:1 P2P 상황. ' testuser '가 보낸 Candidate를 상대에게 전달중. 
+ ReqNo 생성 완료. App으로 전달할 Data : ', {"eventOp":"Candidate","candidate":{"candidate":"candidate:3495337529 1 tcp 1518280447 192.168.2.206 9 typ host tcptype active generation 0 ufrag hECU network-id 1","sdpMid":"0","sdpMLineIndex":0},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036383272","reqDate":"20191007"}
+[19-10-7 10:36:38 ] info) [Signal -> App] {"eventOp":"Candidate","candidate":{"candidate":"candidate:3495337529 1 tcp 1518280447 192.168.2.206 9 typ host tcptype active generation 0 ufrag hECU network-id 1","sdpMid":"1","sdpMLineIndex":1},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036381098","reqDate":"20191007"}
+[19-10-7 10:36:38 ] info) [Socket : 'Candidate ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Req)] *
+* Candidate 전달요청자 : ' testuser ' *
+* eventOp : ' Candidate ' *
+ 1:1 P2P 상황. ' testuser '가 보낸 Candidate를 상대에게 전달중. 
+ ReqNo 생성 완료. App으로 전달할 Data : ', {"eventOp":"Candidate","candidate":{"candidate":"candidate:3495337529 1 tcp 1518280447 192.168.2.206 9 typ host tcptype active generation 0 ufrag hECU network-id 1","sdpMid":"1","sdpMLineIndex":1},"useMediaSvr":"N","usage":"cam","userId":"testuser","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036381098","reqDate":"20191007"}
+[19-10-7 10:36:38 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* undefined : ' undefined || /SignalServer#GhcIL5BXtOj0qmqoAAAI '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036373408","resDate":"20191007","code":"200"}
+[19-10-7 10:36:38 ] info) [Sync Server : getUserList] ROOMS_INFO에 ' 20191007103632-gPJrHfdjILM7 '의 유저 목록. : testconsult,testuser
+[19-10-7 10:36:38 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* undefined : ' undefined || /SignalServer#GhcIL5BXtOj0qmqoAAAI '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036380750","resDate":"20191007","code":"200"}
+[19-10-7 10:36:38 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* undefined : ' undefined || /SignalServer#GhcIL5BXtOj0qmqoAAAI '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036385316","resDate":"20191007","code":"200"}
+[19-10-7 10:36:38 ] info) [Signal -> App] {"eventOp":"SDP","reqNo":"201910071036389974","userId":"testconsult","reqDate":"20191007","sdp":{"type":"answer","sdp":"v=0\r\no=- 4682644940494179617 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=msid-semantic: WMS wpxld06Bw57JJRF3uQw80Hq9e8HFUwNUE5hS\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:gKOo\r\na=ice-pwd:khl4xU55qUPtnQ+JUAdpblcG\r\na=ice-options:trickle\r\na=fingerprint:sha-256 CD:B1:4D:11:38:AF:57:6E:49:1F:9B:80:B7:86:41:1C:22:DC:0A:96:48:90:5A:73:2C:E7:D7:30:C3:33:30:A0\r\na=setup:active\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:3 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:5 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:110 telephone-event/48000\r\na=rtpmap:112 telephone-event/32000\r\na=rtpmap:113 telephone-event/16000\r\na=rtpmap:126 telephone-event/8000\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100 101 102 122 127 121 125 107 108 109 124 120 123 119 114 115 116\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:gKOo\r\na=ice-pwd:khl4xU55qUPtnQ+JUAdpblcG\r\na=ice-options:trickle\r\na=fingerprint:sha-256 CD:B1:4D:11:38:AF:57:6E:49:1F:9B:80:B7:86:41:1C:22:DC:0A:96:48:90:5A:73:2C:E7:D7:30:C3:33:30:A0\r\na=setup:active\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:13 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:12 urn:3gpp:video-orientation\r\na=extmap:2 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:11 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\r\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\r\na=extmap:8 http://tools.ietf.org/html/draft-ietf-avtext-framemarking-07\r\na=extmap:9 http://www.webrtc.org/experiments/rtp-hdrext/color-space\r\na=extmap:3 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:5 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=sendrecv\r\na=msid:wpxld06Bw57JJRF3uQw80Hq9e8HFUwNUE5hS cb687ad6-980e-4f3a-a0b6-847461c5811d\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 VP8/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:98 VP9/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=fmtp:98 profile-id=0\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:100 VP9/90000\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-fb:100 transport-cc\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=fmtp:100 profile-id=2\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:102 H264/90000\r\na=rtcp-fb:102 goog-remb\r\na=rtcp-fb:102 transport-cc\r\na=rtcp-fb:102 ccm fir\r\na=rtcp-fb:102 nack\r\na=rtcp-fb:102 nack pli\r\na=fmtp:102 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\r\na=rtpmap:122 rtx/90000\r\na=fmtp:122 apt=102\r\na=rtpmap:127 H264/90000\r\na=rtcp-fb:127 goog-remb\r\na=rtcp-fb:127 transport-cc\r\na=rtcp-fb:127 ccm fir\r\na=rtcp-fb:127 nack\r\na=rtcp-fb:127 nack pli\r\na=fmtp:127 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f\r\na=rtpmap:121 rtx/90000\r\na=fmtp:121 apt=127\r\na=rtpmap:125 H264/90000\r\na=rtcp-fb:125 goog-remb\r\na=rtcp-fb:125 transport-cc\r\na=rtcp-fb:125 ccm fir\r\na=rtcp-fb:125 nack\r\na=rtcp-fb:125 nack pli\r\na=fmtp:125 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:107 rtx/90000\r\na=fmtp:107 apt=125\r\na=rtpmap:108 H264/90000\r\na=rtcp-fb:108 goog-remb\r\na=rtcp-fb:108 transport-cc\r\na=rtcp-fb:108 ccm fir\r\na=rtcp-fb:108 nack\r\na=rtcp-fb:108 nack pli\r\na=fmtp:108 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f\r\na=rtpmap:109 rtx/90000\r\na=fmtp:109 apt=108\r\na=rtpmap:124 H264/90000\r\na=rtcp-fb:124 goog-remb\r\na=rtcp-fb:124 transport-cc\r\na=rtcp-fb:124 ccm fir\r\na=rtcp-fb:124 nack\r\na=rtcp-fb:124 nack pli\r\na=fmtp:124 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d0032\r\na=rtpmap:120 rtx/90000\r\na=fmtp:120 apt=124\r\na=rtpmap:123 H264/90000\r\na=rtcp-fb:123 goog-remb\r\na=rtcp-fb:123 transport-cc\r\na=rtcp-fb:123 ccm fir\r\na=rtcp-fb:123 nack\r\na=rtcp-fb:123 nack pli\r\na=fmtp:123 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=640032\r\na=rtpmap:119 rtx/90000\r\na=fmtp:119 apt=123\r\na=rtpmap:114 red/90000\r\na=rtpmap:115 rtx/90000\r\na=fmtp:115 apt=114\r\na=rtpmap:116 ulpfec/90000\r\na=ssrc-group:FID 2869985701 3663164781\r\na=ssrc:2869985701 cname:lZE4eeOeTYGb3rIw\r\na=ssrc:3663164781 cname:lZE4eeOeTYGb3rIw\r\n"},"roomId":"20191007103632-gPJrHfdjILM7","usage":"cam","useMediaSvr":"N"}
+[19-10-7 10:36:38 ] info) [Socket : 'SDP ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Req)] *
+* eventOp : ' SDP ' *
+ 1:1 P2P 상황. ' + testconsult+ '가 보낸 SDP를 상대에게 전달중. 
+ ReqNo 생성 완료. App으로 전달할 Data : ', {"eventOp":"SDP","reqNo":"201910071036389974","userId":"testconsult","reqDate":"20191007","sdp":{"type":"answer","sdp":"v=0\r\no=- 4682644940494179617 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=msid-semantic: WMS wpxld06Bw57JJRF3uQw80Hq9e8HFUwNUE5hS\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:gKOo\r\na=ice-pwd:khl4xU55qUPtnQ+JUAdpblcG\r\na=ice-options:trickle\r\na=fingerprint:sha-256 CD:B1:4D:11:38:AF:57:6E:49:1F:9B:80:B7:86:41:1C:22:DC:0A:96:48:90:5A:73:2C:E7:D7:30:C3:33:30:A0\r\na=setup:active\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:3 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:5 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:110 telephone-event/48000\r\na=rtpmap:112 telephone-event/32000\r\na=rtpmap:113 telephone-event/16000\r\na=rtpmap:126 telephone-event/8000\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100 101 102 122 127 121 125 107 108 109 124 120 123 119 114 115 116\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:gKOo\r\na=ice-pwd:khl4xU55qUPtnQ+JUAdpblcG\r\na=ice-options:trickle\r\na=fingerprint:sha-256 CD:B1:4D:11:38:AF:57:6E:49:1F:9B:80:B7:86:41:1C:22:DC:0A:96:48:90:5A:73:2C:E7:D7:30:C3:33:30:A0\r\na=setup:active\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:13 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:12 urn:3gpp:video-orientation\r\na=extmap:2 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:11 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\r\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\r\na=extmap:8 http://tools.ietf.org/html/draft-ietf-avtext-framemarking-07\r\na=extmap:9 http://www.webrtc.org/experiments/rtp-hdrext/color-space\r\na=extmap:3 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:5 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=sendrecv\r\na=msid:wpxld06Bw57JJRF3uQw80Hq9e8HFUwNUE5hS cb687ad6-980e-4f3a-a0b6-847461c5811d\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 VP8/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:98 VP9/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=fmtp:98 profile-id=0\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:100 VP9/90000\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-fb:100 transport-cc\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=fmtp:100 profile-id=2\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:102 H264/90000\r\na=rtcp-fb:102 goog-remb\r\na=rtcp-fb:102 transport-cc\r\na=rtcp-fb:102 ccm fir\r\na=rtcp-fb:102 nack\r\na=rtcp-fb:102 nack pli\r\na=fmtp:102 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\r\na=rtpmap:122 rtx/90000\r\na=fmtp:122 apt=102\r\na=rtpmap:127 H264/90000\r\na=rtcp-fb:127 goog-remb\r\na=rtcp-fb:127 transport-cc\r\na=rtcp-fb:127 ccm fir\r\na=rtcp-fb:127 nack\r\na=rtcp-fb:127 nack pli\r\na=fmtp:127 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f\r\na=rtpmap:121 rtx/90000\r\na=fmtp:121 apt=127\r\na=rtpmap:125 H264/90000\r\na=rtcp-fb:125 goog-remb\r\na=rtcp-fb:125 transport-cc\r\na=rtcp-fb:125 ccm fir\r\na=rtcp-fb:125 nack\r\na=rtcp-fb:125 nack pli\r\na=fmtp:125 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:107 rtx/90000\r\na=fmtp:107 apt=125\r\na=rtpmap:108 H264/90000\r\na=rtcp-fb:108 goog-remb\r\na=rtcp-fb:108 transport-cc\r\na=rtcp-fb:108 ccm fir\r\na=rtcp-fb:108 nack\r\na=rtcp-fb:108 nack pli\r\na=fmtp:108 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f\r\na=rtpmap:109 rtx/90000\r\na=fmtp:109 apt=108\r\na=rtpmap:124 H264/90000\r\na=rtcp-fb:124 goog-remb\r\na=rtcp-fb:124 transport-cc\r\na=rtcp-fb:124 ccm fir\r\na=rtcp-fb:124 nack\r\na=rtcp-fb:124 nack pli\r\na=fmtp:124 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d0032\r\na=rtpmap:120 rtx/90000\r\na=fmtp:120 apt=124\r\na=rtpmap:123 H264/90000\r\na=rtcp-fb:123 goog-remb\r\na=rtcp-fb:123 transport-cc\r\na=rtcp-fb:123 ccm fir\r\na=rtcp-fb:123 nack\r\na=rtcp-fb:123 nack pli\r\na=fmtp:123 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=640032\r\na=rtpmap:119 rtx/90000\r\na=fmtp:119 apt=123\r\na=rtpmap:114 red/90000\r\na=rtpmap:115 rtx/90000\r\na=fmtp:115 apt=114\r\na=rtpmap:116 ulpfec/90000\r\na=ssrc-group:FID 2869985701 3663164781\r\na=ssrc:2869985701 cname:lZE4eeOeTYGb3rIw\r\na=ssrc:3663164781 cname:lZE4eeOeTYGb3rIw\r\n"},"roomId":"20191007103632-gPJrHfdjILM7","usage":"cam","useMediaSvr":"N"}
+[19-10-7 10:36:38 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* undefined : ' undefined || /SignalServer#GhcIL5BXtOj0qmqoAAAI '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036383272","resDate":"20191007","code":"200"}
+[19-10-7 10:36:38 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* undefined : ' undefined || /SignalServer#GhcIL5BXtOj0qmqoAAAI '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036381098","resDate":"20191007","code":"200"}
+[19-10-7 10:36:38 ] info) [Sync Server : getUserList] ROOMS_INFO에 ' 20191007103632-gPJrHfdjILM7 '의 유저 목록. : testconsult,testuser
+[19-10-7 10:36:38 ] info) [Sync Server : getUserList] ROOMS_INFO에 ' 20191007103632-gPJrHfdjILM7 '의 유저 목록. : testconsult,testuser
+[19-10-7 10:36:38 ] info) [Signal -> App] {"eventOp":"Candidate","reqNo":"201910071036386326","userId":"testconsult","reqDate":"20191007","candidate":{"candidate":"candidate:2664784585 1 udp 2122260223 192.168.2.206 61910 typ host generation 0 ufrag gKOo network-id 1","sdpMid":"0","sdpMLineIndex":0},"roomId":"20191007103632-gPJrHfdjILM7","usage":"cam","useMediaSvr":"N"}
+[19-10-7 10:36:38 ] info) [Socket : 'Candidate ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Req)] *
+* Candidate 전달요청자 : ' testconsult ' *
+* eventOp : ' Candidate ' *
+ 1:1 P2P 상황. ' testconsult '가 보낸 Candidate를 상대에게 전달중. 
+ ReqNo 생성 완료. App으로 전달할 Data : ', {"eventOp":"Candidate","reqNo":"201910071036386326","userId":"testconsult","reqDate":"20191007","candidate":{"candidate":"candidate:2664784585 1 udp 2122260223 192.168.2.206 61910 typ host generation 0 ufrag gKOo network-id 1","sdpMid":"0","sdpMLineIndex":0},"roomId":"20191007103632-gPJrHfdjILM7","usage":"cam","useMediaSvr":"N"}
+[19-10-7 10:36:38 ] info) [Signal -> App] {"eventOp":"Candidate","reqNo":"201910071036385302","userId":"testconsult","reqDate":"20191007","candidate":{"candidate":"candidate:530408573 1 udp 1686052607 124.194.123.242 61910 typ srflx raddr 192.168.2.206 rport 61910 generation 0 ufrag gKOo network-id 1","sdpMid":"0","sdpMLineIndex":0},"roomId":"20191007103632-gPJrHfdjILM7","usage":"cam","useMediaSvr":"N"}
+[19-10-7 10:36:38 ] info) [Socket : 'Candidate ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Req)] *
+* Candidate 전달요청자 : ' testconsult ' *
+* eventOp : ' Candidate ' *
+ 1:1 P2P 상황. ' testconsult '가 보낸 Candidate를 상대에게 전달중. 
+ ReqNo 생성 완료. App으로 전달할 Data : ', {"eventOp":"Candidate","reqNo":"201910071036385302","userId":"testconsult","reqDate":"20191007","candidate":{"candidate":"candidate:530408573 1 udp 1686052607 124.194.123.242 61910 typ srflx raddr 192.168.2.206 rport 61910 generation 0 ufrag gKOo network-id 1","sdpMid":"0","sdpMLineIndex":0},"roomId":"20191007103632-gPJrHfdjILM7","usage":"cam","useMediaSvr":"N"}
+[19-10-7 10:36:38 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* undefined : ' undefined || /SignalServer#S3o1B1s1Jtwl9NVoAAAH '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036386326","resDate":"20191007","code":"200"}
+[19-10-7 10:36:38 ] info) [Socket : ' Candidate ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Candidate '*
+* undefined : ' undefined || /SignalServer#S3o1B1s1Jtwl9NVoAAAH '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Candidate","roomId":"20191007103632-gPJrHfdjILM7","reqNo":"201910071036385302","resDate":"20191007","code":"200"}
+[19-10-7 10:36:41 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#GhcIL5BXtOj0qmqoAAAI
+[19-10-7 10:36:41 ] info) [Sync Server : getUserId] ' /SignalServer#GhcIL5BXtOj0qmqoAAAI '의 User Id 찾기 성공 : testconsult
+[19-10-7 10:36:41 ] info) [Disconnect Event: Session realese] The user who use consultant app do not have to use this api  :  /SignalServer#GhcIL5BXtOj0qmqoAAAI
+[19-10-7 10:36:41 ] info) [Sync Server : getUserService] ' /SignalServer#GhcIL5BXtOj0qmqoAAAI '의 service_type 찾기 성공 : "multi"
+[19-10-7 10:36:41 ] info) [Sync Server : getUserList] ROOMS_INFO에 ' 20191007103632-gPJrHfdjILM7 '의 유저 목록. : testconsult,testuser
+[19-10-7 10:36:41 ] info) [Sync Server : getUserList] ROOMS_INFO에 ' 20191007103632-gPJrHfdjILM7 '의 유저 목록. : testconsult,testuser
+[19-10-7 10:36:41 ] info) 소켓접속 : "/SignalServer#kP7h1w8-lgCFYdjnAAAJ"
+[19-10-7 10:36:41 ] info) [common.service logout] logout success - "testconsult"
+[19-10-7 10:36:41 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 10:36:41 ] info) [common.service logout] presense msg send success (signal -> app) : {"signalOp":"Presence","userId":"testconsult","action":"end"}
+[19-10-7 10:36:41 ] info) UpdateConferenceHistory callback {"code":"200","message":"OK"}
+[19-10-7 10:36:42 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#S3o1B1s1Jtwl9NVoAAAH
+[19-10-7 10:36:42 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#S3o1B1s1Jtwl9NVoAAAH
+[19-10-7 10:36:42 ] info) [Sync Server : getUserId] ' /SignalServer#S3o1B1s1Jtwl9NVoAAAH '의 User Id 찾기 성공 : testuser
+[19-10-7 10:36:42 ] info) [Sync Server : getUserService] ' /SignalServer#S3o1B1s1Jtwl9NVoAAAH '의 service_type 찾기 성공 : "multi"
+[19-10-7 10:36:42 ] info) [common.service logout] logout success - "testuser"
+[19-10-7 10:36:42 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 10:36:42 ] info) 소켓접속 : "/SignalServer#oAEXRd_w-wVXLmLdAAAK"
+[19-10-7 10:37:51 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#kP7h1w8-lgCFYdjnAAAJ
+[19-10-7 10:37:51 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#kP7h1w8-lgCFYdjnAAAJ
+[19-10-7 10:37:51 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#kP7h1w8-lgCFYdjnAAAJ
+[19-10-7 10:37:51 ] warn) logout data.userid 없음.
+[19-10-7 10:37:51 ] info) 소켓접속 : "/SignalServer#MnTEmD93kj3p3S9LAAAL"
+[19-10-7 10:37:52 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#MnTEmD93kj3p3S9LAAAL
+[19-10-7 10:37:52 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#MnTEmD93kj3p3S9LAAAL
+[19-10-7 10:37:52 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#MnTEmD93kj3p3S9LAAAL
+[19-10-7 10:37:52 ] warn) logout data.userid 없음.
+[19-10-7 10:37:52 ] info) 소켓접속 : "/SignalServer#wcwFqUlLHCUN45BnAAAM"
+[19-10-7 10:38:02 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#wcwFqUlLHCUN45BnAAAM
+[19-10-7 10:38:02 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#wcwFqUlLHCUN45BnAAAM
+[19-10-7 10:38:02 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#wcwFqUlLHCUN45BnAAAM
+[19-10-7 10:38:02 ] warn) logout data.userid 없음.
+[19-10-7 10:38:02 ] info) 소켓접속 : "/SignalServer#E1IxMpN5BMB2ZIhEAAAN"
+[19-10-7 10:38:04 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#E1IxMpN5BMB2ZIhEAAAN
+[19-10-7 10:38:04 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#E1IxMpN5BMB2ZIhEAAAN
+[19-10-7 10:38:04 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#E1IxMpN5BMB2ZIhEAAAN
+[19-10-7 10:38:04 ] warn) logout data.userid 없음.
+[19-10-7 10:38:04 ] info) 소켓접속 : "/SignalServer#hOoqyTzmFgRBa0eNAAAO"
+[19-10-7 10:38:05 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#hOoqyTzmFgRBa0eNAAAO
+[19-10-7 10:38:05 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#hOoqyTzmFgRBa0eNAAAO
+[19-10-7 10:38:05 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#hOoqyTzmFgRBa0eNAAAO
+[19-10-7 10:38:05 ] warn) logout data.userid 없음.
+[19-10-7 10:38:05 ] info) 소켓접속 : "/SignalServer#g_grarRA2_8RHPs4AAAP"
+[19-10-7 10:38:05 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#g_grarRA2_8RHPs4AAAP
+[19-10-7 10:38:05 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#g_grarRA2_8RHPs4AAAP
+[19-10-7 10:38:05 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#g_grarRA2_8RHPs4AAAP
+[19-10-7 10:38:05 ] warn) logout data.userid 없음.
+[19-10-7 10:38:05 ] info) 소켓접속 : "/SignalServer#68x_dltPYNViu47rAAAQ"
+[19-10-7 10:38:05 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#68x_dltPYNViu47rAAAQ
+[19-10-7 10:38:05 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#68x_dltPYNViu47rAAAQ
+[19-10-7 10:38:05 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#68x_dltPYNViu47rAAAQ
+[19-10-7 10:38:05 ] warn) logout data.userid 없음.
+[19-10-7 10:38:05 ] info) 소켓접속 : "/SignalServer#rKxk7FOFl_Wwt3fyAAAR"
+[19-10-7 10:38:06 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#rKxk7FOFl_Wwt3fyAAAR
+[19-10-7 10:38:06 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#rKxk7FOFl_Wwt3fyAAAR
+[19-10-7 10:38:06 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#rKxk7FOFl_Wwt3fyAAAR
+[19-10-7 10:38:06 ] warn) logout data.userid 없음.
+[19-10-7 10:38:06 ] info) 소켓접속 : "/SignalServer#IORTHtQrx5BT9yLnAAAS"
+[19-10-7 10:38:14 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#IORTHtQrx5BT9yLnAAAS
+[19-10-7 10:38:14 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#IORTHtQrx5BT9yLnAAAS
+[19-10-7 10:38:14 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#IORTHtQrx5BT9yLnAAAS
+[19-10-7 10:38:14 ] warn) logout data.userid 없음.
+[19-10-7 10:38:14 ] info) 소켓접속 : "/SignalServer#EAC4R4Hi0S4ZNg6WAAAU"
+[19-10-7 10:47:23 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#EAC4R4Hi0S4ZNg6WAAAU
+[19-10-7 10:47:23 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#EAC4R4Hi0S4ZNg6WAAAU
+[19-10-7 10:47:23 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#EAC4R4Hi0S4ZNg6WAAAU
+[19-10-7 10:47:23 ] warn) logout data.userid 없음.
+[19-10-7 10:47:23 ] info) 소켓접속 : "/SignalServer#Q90MvmWFdfYOWPDgAAAV"
+[19-10-7 10:47:27 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#oAEXRd_w-wVXLmLdAAAK
+[19-10-7 10:47:27 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#oAEXRd_w-wVXLmLdAAAK
+[19-10-7 10:47:27 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#oAEXRd_w-wVXLmLdAAAK
+[19-10-7 10:47:27 ] warn) logout data.userid 없음.
+[19-10-7 10:47:27 ] info) 소켓접속 : "/SignalServer#cPvnV-Wanf279uVzAAAW"
+[19-10-7 10:47:40 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#Q90MvmWFdfYOWPDgAAAV
+[19-10-7 10:47:40 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#Q90MvmWFdfYOWPDgAAAV
+[19-10-7 10:47:40 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#Q90MvmWFdfYOWPDgAAAV
+[19-10-7 10:47:40 ] warn) logout data.userid 없음.
+[19-10-7 10:47:40 ] info) 소켓접속 : "/SignalServer#bjUxUZpIoKnNfbtQAAAX"
+[19-10-7 10:47:41 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#cPvnV-Wanf279uVzAAAW
+[19-10-7 10:47:41 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#cPvnV-Wanf279uVzAAAW
+[19-10-7 10:47:41 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#cPvnV-Wanf279uVzAAAW
+[19-10-7 10:47:41 ] warn) logout data.userid 없음.
+[19-10-7 10:47:41 ] info) 소켓접속 : "/SignalServer#gSquYojf7uZ6n8OMAAAY"
+[19-10-7 10:48:17 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#bjUxUZpIoKnNfbtQAAAX
+[19-10-7 10:48:17 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#bjUxUZpIoKnNfbtQAAAX
+[19-10-7 10:48:17 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#bjUxUZpIoKnNfbtQAAAX
+[19-10-7 10:48:17 ] warn) logout data.userid 없음.
+[19-10-7 10:48:17 ] info) 소켓접속 : "/SignalServer#Az3i7WzyK4mzAGH7AAAZ"
+[19-10-7 10:49:00 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#Az3i7WzyK4mzAGH7AAAZ
+[19-10-7 10:49:00 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#Az3i7WzyK4mzAGH7AAAZ
+[19-10-7 10:49:00 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#Az3i7WzyK4mzAGH7AAAZ
+[19-10-7 10:49:00 ] warn) logout data.userid 없음.
+[19-10-7 10:49:00 ] info) 소켓접속 : "/SignalServer#4QxL31qi6XKYIWT7AAAa"
+[19-10-7 10:49:01 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#4QxL31qi6XKYIWT7AAAa
+[19-10-7 10:49:01 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#4QxL31qi6XKYIWT7AAAa
+[19-10-7 10:49:01 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#4QxL31qi6XKYIWT7AAAa
+[19-10-7 10:49:01 ] warn) logout data.userid 없음.
+[19-10-7 10:49:01 ] info) 소켓접속 : "/SignalServer#pBTa2FYwKM3QIbitAAAb"
+[19-10-7 10:49:01 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#pBTa2FYwKM3QIbitAAAb
+[19-10-7 10:49:01 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#pBTa2FYwKM3QIbitAAAb
+[19-10-7 10:49:01 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#pBTa2FYwKM3QIbitAAAb
+[19-10-7 10:49:01 ] warn) logout data.userid 없음.
+[19-10-7 10:49:01 ] info) 소켓접속 : "/SignalServer#5-IxfzLTzkiXFSOJAAAc"
+[19-10-7 10:49:02 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#5-IxfzLTzkiXFSOJAAAc
+[19-10-7 10:49:02 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#5-IxfzLTzkiXFSOJAAAc
+[19-10-7 10:49:02 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#5-IxfzLTzkiXFSOJAAAc
+[19-10-7 10:49:02 ] warn) logout data.userid 없음.
+[19-10-7 10:49:02 ] info) 소켓접속 : "/SignalServer#1p1ocmIvu06j3mlgAAAd"
+[19-10-7 10:49:02 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#1p1ocmIvu06j3mlgAAAd
+[19-10-7 10:49:02 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#1p1ocmIvu06j3mlgAAAd
+[19-10-7 10:49:02 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#1p1ocmIvu06j3mlgAAAd
+[19-10-7 10:49:02 ] warn) logout data.userid 없음.
+[19-10-7 10:49:02 ] info) 소켓접속 : "/SignalServer#dfh1rV13fIHbTDRVAAAe"
+[19-10-7 10:49:02 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#dfh1rV13fIHbTDRVAAAe
+[19-10-7 10:49:02 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#dfh1rV13fIHbTDRVAAAe
+[19-10-7 10:49:02 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#dfh1rV13fIHbTDRVAAAe
+[19-10-7 10:49:02 ] warn) logout data.userid 없음.
+[19-10-7 10:49:02 ] info) 소켓접속 : "/SignalServer#qociRhWQ3-FsrCxQAAAf"
+[19-10-7 10:49:02 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#qociRhWQ3-FsrCxQAAAf
+[19-10-7 10:49:02 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#qociRhWQ3-FsrCxQAAAf
+[19-10-7 10:49:02 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#qociRhWQ3-FsrCxQAAAf
+[19-10-7 10:49:02 ] warn) logout data.userid 없음.
+[19-10-7 10:49:02 ] info) 소켓접속 : "/SignalServer#HD1UT04Mh7zQyr1JAAAg"
+[19-10-7 10:49:25 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#HD1UT04Mh7zQyr1JAAAg
+[19-10-7 10:49:25 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#HD1UT04Mh7zQyr1JAAAg
+[19-10-7 10:49:25 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#HD1UT04Mh7zQyr1JAAAg
+[19-10-7 10:49:25 ] warn) logout data.userid 없음.
+[19-10-7 10:49:25 ] info) 소켓접속 : "/SignalServer#VtQ8BTygoZ645sm_AAAh"
+[19-10-7 10:49:55 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#VtQ8BTygoZ645sm_AAAh
+[19-10-7 10:49:55 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#VtQ8BTygoZ645sm_AAAh
+[19-10-7 10:49:55 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#VtQ8BTygoZ645sm_AAAh
+[19-10-7 10:49:55 ] warn) logout data.userid 없음.
+[19-10-7 10:49:56 ] info) 소켓접속 : "/SignalServer#VHeYg9QnwwJ6i3tvAAAi"
+[19-10-7 10:50:01 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#gSquYojf7uZ6n8OMAAAY
+[19-10-7 10:50:01 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#gSquYojf7uZ6n8OMAAAY
+[19-10-7 10:50:01 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#gSquYojf7uZ6n8OMAAAY
+[19-10-7 10:50:01 ] warn) logout data.userid 없음.
+[19-10-7 10:50:02 ] info) 소켓접속 : "/SignalServer#qhCU8QQNFWuLHy9RAAAj"
+[19-10-7 10:50:06 ] info) [Socket : ' Login ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testconsult : ' testconsult || /SignalServer#VHeYg9QnwwJ6i3tvAAAi '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testconsult","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 10:50:06 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007105006","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:50:06 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 10:50:06 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007105006","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:50:15 ] info) [Socket : ' Login ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testuser : ' testuser || /SignalServer#qhCU8QQNFWuLHy9RAAAj '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testuser","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 10:50:15 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007105015","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:50:15 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 10:50:15 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007105015","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:50:16 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#qhCU8QQNFWuLHy9RAAAj
+[19-10-7 10:50:16 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#qhCU8QQNFWuLHy9RAAAj
+[19-10-7 10:50:16 ] info) [Sync Server : getUserId] ' /SignalServer#qhCU8QQNFWuLHy9RAAAj '의 User Id 찾기 성공 : testuser
+[19-10-7 10:50:16 ] info) [Sync Server : getUserService] ' /SignalServer#qhCU8QQNFWuLHy9RAAAj '의 service_type 찾기 성공 : "multi"
+[19-10-7 10:50:16 ] info) [common.service logout] logout success - "testuser"
+[19-10-7 10:50:16 ] info) 소켓접속 : "/SignalServer#VIH9vgerQI6Y0Ap_AAAk"
+[19-10-7 10:50:16 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 10:50:36 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#VHeYg9QnwwJ6i3tvAAAi
+[19-10-7 10:50:36 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#VHeYg9QnwwJ6i3tvAAAi
+[19-10-7 10:50:36 ] info) [Sync Server : getUserId] ' /SignalServer#VHeYg9QnwwJ6i3tvAAAi '의 User Id 찾기 성공 : testconsult
+[19-10-7 10:50:36 ] info) [Sync Server : getUserService] ' /SignalServer#VHeYg9QnwwJ6i3tvAAAi '의 service_type 찾기 성공 : "multi"
+[19-10-7 10:50:37 ] info) [common.service logout] logout success - "testconsult"
+[19-10-7 10:50:37 ] info) 소켓접속 : "/SignalServer#f1UmV8YSr63LV9DBAAAl"
+[19-10-7 10:50:37 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 10:50:39 ] info) [Socket : ' Login ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testconsult : ' testconsult || /SignalServer#f1UmV8YSr63LV9DBAAAl '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testconsult","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 10:50:39 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007105039","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:50:39 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 10:50:39 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007105039","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:50:54 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#VIH9vgerQI6Y0Ap_AAAk
+[19-10-7 10:50:54 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#VIH9vgerQI6Y0Ap_AAAk
+[19-10-7 10:50:54 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#VIH9vgerQI6Y0Ap_AAAk
+[19-10-7 10:50:54 ] warn) logout data.userid 없음.
+[19-10-7 10:50:54 ] info) 소켓접속 : "/SignalServer#-iBA6HVzXof5CC8GAAAm"
+[19-10-7 10:50:55 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#-iBA6HVzXof5CC8GAAAm
+[19-10-7 10:50:55 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#-iBA6HVzXof5CC8GAAAm
+[19-10-7 10:50:55 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#-iBA6HVzXof5CC8GAAAm
+[19-10-7 10:50:55 ] warn) logout data.userid 없음.
+[19-10-7 10:50:56 ] info) 소켓접속 : "/SignalServer#QA_TVloHAMjJKMyjAAAn"
+[19-10-7 10:50:56 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#QA_TVloHAMjJKMyjAAAn
+[19-10-7 10:50:56 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#QA_TVloHAMjJKMyjAAAn
+[19-10-7 10:50:56 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#QA_TVloHAMjJKMyjAAAn
+[19-10-7 10:50:56 ] warn) logout data.userid 없음.
+[19-10-7 10:50:56 ] info) 소켓접속 : "/SignalServer#3vMx75z__2bgpEn1AAAo"
+[19-10-7 10:50:56 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#3vMx75z__2bgpEn1AAAo
+[19-10-7 10:50:56 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#3vMx75z__2bgpEn1AAAo
+[19-10-7 10:50:56 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#3vMx75z__2bgpEn1AAAo
+[19-10-7 10:50:56 ] warn) logout data.userid 없음.
+[19-10-7 10:50:56 ] info) 소켓접속 : "/SignalServer#Tsb1-wK6LyB9NmG-AAAp"
+[19-10-7 10:50:57 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#Tsb1-wK6LyB9NmG-AAAp
+[19-10-7 10:50:57 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#Tsb1-wK6LyB9NmG-AAAp
+[19-10-7 10:50:57 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#Tsb1-wK6LyB9NmG-AAAp
+[19-10-7 10:50:57 ] warn) logout data.userid 없음.
+[19-10-7 10:50:57 ] info) 소켓접속 : "/SignalServer#PLl_DZcEt-eQQHcNAAAq"
+[19-10-7 10:50:58 ] info) [Socket : ' Login ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testuser : ' testuser || /SignalServer#PLl_DZcEt-eQQHcNAAAq '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testuser","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 10:50:58 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007105058","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:50:58 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 10:50:58 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007105058","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:50:59 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#PLl_DZcEt-eQQHcNAAAq
+[19-10-7 10:50:59 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#PLl_DZcEt-eQQHcNAAAq
+[19-10-7 10:50:59 ] info) [Sync Server : getUserId] ' /SignalServer#PLl_DZcEt-eQQHcNAAAq '의 User Id 찾기 성공 : testuser
+[19-10-7 10:50:59 ] info) [Sync Server : getUserService] ' /SignalServer#PLl_DZcEt-eQQHcNAAAq '의 service_type 찾기 성공 : "multi"
+[19-10-7 10:50:59 ] info) [common.service logout] logout success - "testuser"
+[19-10-7 10:50:59 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 10:50:59 ] info) 소켓접속 : "/SignalServer#o44cBgWe9dh5IgViAAAr"
+[19-10-7 10:51:27 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#o44cBgWe9dh5IgViAAAr
+[19-10-7 10:51:27 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#o44cBgWe9dh5IgViAAAr
+[19-10-7 10:51:27 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#o44cBgWe9dh5IgViAAAr
+[19-10-7 10:51:27 ] warn) logout data.userid 없음.
+[19-10-7 10:51:27 ] info) 소켓접속 : "/SignalServer#LdhkTE7ShpyHOpTWAAAs"
+[19-10-7 10:51:28 ] info) [Socket : ' Login ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testuser : ' testuser || /SignalServer#LdhkTE7ShpyHOpTWAAAs '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testuser","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 10:51:28 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007105128","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:51:28 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 10:51:28 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007105128","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:51:43 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#LdhkTE7ShpyHOpTWAAAs
+[19-10-7 10:51:43 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#LdhkTE7ShpyHOpTWAAAs
+[19-10-7 10:51:43 ] info) [Sync Server : getUserId] ' /SignalServer#LdhkTE7ShpyHOpTWAAAs '의 User Id 찾기 성공 : testuser
+[19-10-7 10:51:43 ] info) [Sync Server : getUserService] ' /SignalServer#LdhkTE7ShpyHOpTWAAAs '의 service_type 찾기 성공 : "multi"
+[19-10-7 10:51:43 ] info) [common.service logout] logout success - "testuser"
+[19-10-7 10:51:43 ] info) 소켓접속 : "/SignalServer#l2kzU14bCKt1aZU1AAAt"
+[19-10-7 10:51:43 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 10:51:44 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#l2kzU14bCKt1aZU1AAAt
+[19-10-7 10:51:44 ] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#l2kzU14bCKt1aZU1AAAt
+[19-10-7 10:51:44 ] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#l2kzU14bCKt1aZU1AAAt
+[19-10-7 10:51:44 ] warn) logout data.userid 없음.
+[19-10-7 10:51:44 ] info) 소켓접속 : "/SignalServer#gcWCJzhX_YAXVS59AAAu"
+[19-10-7 10:51:46 ] info) [Socket : ' Login ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testuser : ' testuser || /SignalServer#gcWCJzhX_YAXVS59AAAu '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testuser","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 10:51:46 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007105146","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:51:46 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 10:51:46 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007105146","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:51:47 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#f1UmV8YSr63LV9DBAAAl
+[19-10-7 10:51:47 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#f1UmV8YSr63LV9DBAAAl
+[19-10-7 10:51:47 ] info) [Sync Server : getUserId] ' /SignalServer#f1UmV8YSr63LV9DBAAAl '의 User Id 찾기 성공 : testconsult
+[19-10-7 10:51:47 ] info) [Sync Server : getUserService] ' /SignalServer#f1UmV8YSr63LV9DBAAAl '의 service_type 찾기 성공 : "multi"
+[19-10-7 10:51:47 ] info) 소켓접속 : "/SignalServer#E5Uzqbql0QqmAKU5AAAv"
+[19-10-7 10:51:47 ] info) [common.service logout] logout success - "testconsult"
+[19-10-7 10:51:47 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 10:51:49 ] info) [Socket : ' Login ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testconsult : ' testconsult || /SignalServer#E5Uzqbql0QqmAKU5AAAv '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testconsult","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 10:51:49 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007105149","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:51:49 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 10:51:49 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007105149","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:59:18 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#E5Uzqbql0QqmAKU5AAAv
+[19-10-7 10:59:18 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#E5Uzqbql0QqmAKU5AAAv
+[19-10-7 10:59:18 ] info) [Sync Server : getUserId] ' /SignalServer#E5Uzqbql0QqmAKU5AAAv '의 User Id 찾기 성공 : testconsult
+[19-10-7 10:59:18 ] info) [Sync Server : getUserService] ' /SignalServer#E5Uzqbql0QqmAKU5AAAv '의 service_type 찾기 성공 : "multi"
+[19-10-7 10:59:18 ] info) [common.service logout] logout success - "testconsult"
+[19-10-7 10:59:18 ] info) 소켓접속 : "/SignalServer#6XXZGJK2qczVxfQcAAAw"
+[19-10-7 10:59:18 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 10:59:20 ] info) [Socket : ' Login ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testconsult : ' testconsult || /SignalServer#6XXZGJK2qczVxfQcAAAw '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testconsult","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 10:59:20 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007105920","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:59:20 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testconsult","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 10:59:20 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007105920","code":"200","message":"OK","userName":"testconsult","userNumber":"05099887804","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:59:29 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#gcWCJzhX_YAXVS59AAAu
+[19-10-7 10:59:29 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#gcWCJzhX_YAXVS59AAAu
+[19-10-7 10:59:29 ] info) [Sync Server : getUserId] ' /SignalServer#gcWCJzhX_YAXVS59AAAu '의 User Id 찾기 성공 : testuser
+[19-10-7 10:59:29 ] info) [Sync Server : getUserService] ' /SignalServer#gcWCJzhX_YAXVS59AAAu '의 service_type 찾기 성공 : "multi"
+[19-10-7 10:59:29 ] info) 소켓접속 : "/SignalServer#m0ENpI57dAIrGbMdAAAx"
+[19-10-7 10:59:29 ] info) [common.service logout] logout success - "testuser"
+[19-10-7 10:59:29 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그아웃","codeMessage":"OK","roomId":""}
+[19-10-7 10:59:30 ] info) [Socket : ' Login ' Event / PID : ' 8184  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* testuser : ' testuser || /SignalServer#m0ENpI57dAIrGbMdAAAx '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"testuser","userPw":"test01","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 10:59:30 ] info) [Socket : ' Login ' Event / 다자간 화상회의] *
+* 현재 처리중 방향 : [Signal -> App (Resp)] *
+* eventOp : '  Login ' *
+ App으로 전달할 Data : ', {"eventOp":"Login","reqNo":1,"resDate":"20191007105930","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:59:30 ] info) [Signal -> App] {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그인","codeMessage":"OK","roomId":""}
+[19-10-7 10:59:30 ] info) [Signal -> App] {"eventOp":"Login","reqNo":1,"resDate":"20191007105930","code":"200","message":"OK","userName":"testuser","userNumber":"22222262","config":[{"name":"default2","turn_url":"turn:218.145.218.200:46000","turn_credential":"ktarw01","turn_username":"ktarw","stun_url":"stun:218.145.218.200:46000"},{"name":"default","turn_url":"turn:106.240.247.44:46000","turn_credential":"kpoint01","turn_username":"kpoint","stun_url":"stun:106.240.247.44:46000"}]}
+[19-10-7 10:59:45 ] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#m0ENpI57dAIrGbMdAAAx
+[19-10-7 10:59:45 ] info) [Disconnect Event: Session realese] This user dose not have a room  :  /SignalServer#m0ENpI57dAIrGbMdAAAx
+[19-10-7 10:59:45 ] info) [Sync Server : getUserId] ' /SignalServer#m0ENpI57dAIrGbMdAAAx '의 User Id 찾기 성공 : testuser
+[19-10-7 10:59:45 ] info) [Sync Server : getUserService] ' /SignalServer#m0ENpI57dAIrGbMdAAAx '의 service_type 찾기 성공 : "multi"
+[19-10-7 10:59:45 ] info) 소켓접속 : "/SignalServer#sUY4nqZbDnmBCBfdAAAy"
+[19-10-7 10:59:45 ] info) [common.service logout] logout success - "testuser"
+[19-10-7 10:59:45 ] info) [Signal -> App] send Data : {"eventOp":"Transaction","code":"200","userId":"testuser","service":"로그아웃","codeMessage":"OK","roomId":""}

@@ -1,0 +1,153 @@
+[19-10-7 5:19:43 P] info) 8944 is work. workerId : 1 
+[19-10-7 5:20:15 P] info) 소켓접속 : "/SignalServer#Rzs-mD_7aSm8MrJtAAAC"
+[19-10-7 5:20:15 P] info) Process Id : ' 8944
+[19-10-7 5:20:15 P] info) [ ### JANUS > SIGNAL ### ] {
+   "janus": "success",
+   "transaction": "C2kVktj7QMFf",
+   "data": {
+      "id": 5618760666540485
+   }
+}
+[19-10-7 5:20:15 P] info) [ ### JANUS > SIGNAL ### ] {
+   "janus": "success",
+   "session_id": 5618760666540485,
+   "transaction": "Pq4D3LQDVlZr",
+   "data": {
+      "id": 5736301903589262
+   }
+}
+[19-10-7 5:20:22 P] info) 소켓접속 : "/SignalServer#ea67yIko8hN1BKDAAAAD"
+[19-10-7 5:31:29 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#ea67yIko8hN1BKDAAAAD
+[19-10-7 5:31:29 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#ea67yIko8hN1BKDAAAAD
+[19-10-7 5:31:29 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#ea67yIko8hN1BKDAAAAD
+[19-10-7 5:31:29 P] warn) logout data.userid 없음.
+[19-10-7 5:31:43 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#Rzs-mD_7aSm8MrJtAAAC
+[19-10-7 5:31:43 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#Rzs-mD_7aSm8MrJtAAAC
+[19-10-7 5:31:43 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#Rzs-mD_7aSm8MrJtAAAC
+[19-10-7 5:31:43 P] warn) logout data.userid 없음.
+[19-10-7 5:33:49 P] info) 소켓접속 : "/SignalServer#3dEZfWtg2xWesrpRAAAE"
+[19-10-7 5:34:26 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#3dEZfWtg2xWesrpRAAAE
+[19-10-7 5:34:26 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#3dEZfWtg2xWesrpRAAAE
+[19-10-7 5:34:26 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#3dEZfWtg2xWesrpRAAAE
+[19-10-7 5:34:26 P] warn) logout data.userid 없음.
+[19-10-7 5:34:26 P] info) 소켓접속 : "/SignalServer#HGEtucdFfo9Pnx7OAAAF"
+[19-10-7 5:35:21 P] info) 소켓접속 : "/SignalServer#T86s4hfB8Xdk11PxAAAG"
+[19-10-7 5:35:21 P] info) 소켓접속 : "/SignalServer#8umUv6pyYTsrzhv2AAAH"
+[19-10-7 5:35:22 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#HGEtucdFfo9Pnx7OAAAF
+[19-10-7 5:35:22 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#HGEtucdFfo9Pnx7OAAAF
+[19-10-7 5:35:22 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#HGEtucdFfo9Pnx7OAAAF
+[19-10-7 5:35:22 P] warn) logout data.userid 없음.
+[19-10-7 5:35:22 P] info) 소켓접속 : "/SignalServer#CNhRCYMi6Lc-1OYbAAAI"
+[19-10-7 5:35:22 P] info) 소켓접속 : "/SignalServer#4hbAwxX05uxcZxpmAAAJ"
+[19-10-7 5:35:23 P] info) 소켓접속 : "/SignalServer#z-R2zX-uo8C_o045AAAK"
+[19-10-7 5:35:23 P] info) 소켓접속 : "/SignalServer#fp5qHwoFA0QDJrx3AAAL"
+[19-10-7 5:35:23 P] info) 소켓접속 : "/SignalServer#eiFX64VU4RfmkpfiAAAM"
+[19-10-7 5:35:23 P] info) 소켓접속 : "/SignalServer#DNO7YZiQ4qhDd3EjAAAN"
+[19-10-7 5:36:46 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#T86s4hfB8Xdk11PxAAAG
+[19-10-7 5:36:46 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#8umUv6pyYTsrzhv2AAAH
+[19-10-7 5:36:46 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#T86s4hfB8Xdk11PxAAAG
+[19-10-7 5:36:46 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#T86s4hfB8Xdk11PxAAAG
+[19-10-7 5:36:46 P] warn) logout data.userid 없음.
+[19-10-7 5:36:46 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#8umUv6pyYTsrzhv2AAAH
+[19-10-7 5:36:46 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#8umUv6pyYTsrzhv2AAAH
+[19-10-7 5:36:46 P] warn) logout data.userid 없음.
+[19-10-7 5:36:46 P] info) 소켓접속 : "/SignalServer#T-ZfK0sDE_9Jq8GyAAAO"
+[19-10-7 5:36:47 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#CNhRCYMi6Lc-1OYbAAAI
+[19-10-7 5:36:47 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#4hbAwxX05uxcZxpmAAAJ
+[19-10-7 5:36:47 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#CNhRCYMi6Lc-1OYbAAAI
+[19-10-7 5:36:47 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#CNhRCYMi6Lc-1OYbAAAI
+[19-10-7 5:36:47 P] warn) logout data.userid 없음.
+[19-10-7 5:36:47 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#4hbAwxX05uxcZxpmAAAJ
+[19-10-7 5:36:47 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#4hbAwxX05uxcZxpmAAAJ
+[19-10-7 5:36:47 P] warn) logout data.userid 없음.
+[19-10-7 5:36:47 P] info) 소켓접속 : "/SignalServer#Anxg5FiFoyx4hTpeAAAP"
+[19-10-7 5:36:48 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#z-R2zX-uo8C_o045AAAK
+[19-10-7 5:36:48 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#fp5qHwoFA0QDJrx3AAAL
+[19-10-7 5:36:48 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#z-R2zX-uo8C_o045AAAK
+[19-10-7 5:36:48 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#z-R2zX-uo8C_o045AAAK
+[19-10-7 5:36:48 P] warn) logout data.userid 없음.
+[19-10-7 5:36:48 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#fp5qHwoFA0QDJrx3AAAL
+[19-10-7 5:36:48 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#fp5qHwoFA0QDJrx3AAAL
+[19-10-7 5:36:48 P] warn) logout data.userid 없음.
+[19-10-7 5:36:48 P] info) 소켓접속 : "/SignalServer#Qh0f37VF8vMgmxFXAAAQ"
+[19-10-7 5:36:49 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#eiFX64VU4RfmkpfiAAAM
+[19-10-7 5:36:49 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#DNO7YZiQ4qhDd3EjAAAN
+[19-10-7 5:36:49 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#eiFX64VU4RfmkpfiAAAM
+[19-10-7 5:36:49 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#eiFX64VU4RfmkpfiAAAM
+[19-10-7 5:36:49 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#DNO7YZiQ4qhDd3EjAAAN
+[19-10-7 5:36:49 P] warn) logout data.userid 없음.
+[19-10-7 5:36:49 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#DNO7YZiQ4qhDd3EjAAAN
+[19-10-7 5:36:49 P] warn) logout data.userid 없음.
+[19-10-7 5:36:49 P] info) 소켓접속 : "/SignalServer#SKuBmYQ5iM_y_qXIAAAR"
+[19-10-7 5:38:57 P] info) 17120 is work. workerId : 1 
+[19-10-7 5:38:58 P] info) 소켓접속 : "/SignalServer#jEGmB49_kwH1YOl3AAAA"
+[19-10-7 5:38:58 P] info) Process Id : ' 17120
+[19-10-7 5:38:58 P] info) 소켓접속 : "/SignalServer#5DlX5lgR50pO1fMGAAAB"
+[19-10-7 5:38:58 P] info) [ ### JANUS > SIGNAL ### ] {
+   "janus": "success",
+   "transaction": "Odcjk3cY4kFe",
+   "data": {
+      "id": 3692020881356869
+   }
+}
+[19-10-7 5:38:58 P] info) [ ### JANUS > SIGNAL ### ] {
+   "janus": "success",
+   "session_id": 3692020881356869,
+   "transaction": "gp5zC1RP2GfO",
+   "data": {
+      "id": 5060384163923463
+   }
+}
+[19-10-7 5:38:59 P] info) 소켓접속 : "/SignalServer#v_6aTOuyWIro34mtAAAC"
+[19-10-7 5:39:01 P] info) 소켓접속 : "/SignalServer#e5NUo_NxsY_fpmdUAAAD"
+[19-10-7 5:39:03 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#e5NUo_NxsY_fpmdUAAAD
+[19-10-7 5:39:03 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#e5NUo_NxsY_fpmdUAAAD
+[19-10-7 5:39:03 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#e5NUo_NxsY_fpmdUAAAD
+[19-10-7 5:39:03 P] warn) logout data.userid 없음.
+[19-10-7 5:39:03 P] info) 소켓접속 : "/SignalServer#WPNbcRg4ZNLZ_4PCAAAE"
+[19-10-7 5:39:05 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#jEGmB49_kwH1YOl3AAAA
+[19-10-7 5:39:05 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#jEGmB49_kwH1YOl3AAAA
+[19-10-7 5:39:05 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#jEGmB49_kwH1YOl3AAAA
+[19-10-7 5:39:05 P] warn) logout data.userid 없음.
+[19-10-7 5:39:05 P] info) 소켓접속 : "/SignalServer#x02fHD29VaY1LIWSAAAF"
+[19-10-7 5:39:06 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#5DlX5lgR50pO1fMGAAAB
+[19-10-7 5:39:06 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#5DlX5lgR50pO1fMGAAAB
+[19-10-7 5:39:06 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#5DlX5lgR50pO1fMGAAAB
+[19-10-7 5:39:06 P] warn) logout data.userid 없음.
+[19-10-7 5:39:06 P] info) 소켓접속 : "/SignalServer#shqp5aTQEu8C4JXBAAAG"
+[19-10-7 5:39:06 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#v_6aTOuyWIro34mtAAAC
+[19-10-7 5:39:06 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#v_6aTOuyWIro34mtAAAC
+[19-10-7 5:39:06 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#v_6aTOuyWIro34mtAAAC
+[19-10-7 5:39:06 P] warn) logout data.userid 없음.
+[19-10-7 5:39:06 P] info) 소켓접속 : "/SignalServer#csB_EffXP3Bl0SZhAAAH"
+[19-10-7 5:39:07 P] info) [Socket : ' Login ' Event / PID : ' 17120  '] *
+* 현재 처리중 방향 : [App -> Signal] *
+* eventOp : ' Login '*
+* p1 : ' p1 || /SignalServer#WPNbcRg4ZNLZ_4PCAAAE '*
+* App으로 부터 온 Data : * 
+' {"eventOp":"Login","reqNo":1,"userId":"p1","userPw":"e3b98a4da31a127d4bde6e43033f66ba274cab0eb7eb1c70ec41402bf6273dd8","reqDate":"20191007","deviceType":"pc"}
+[19-10-7 5:39:18 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#WPNbcRg4ZNLZ_4PCAAAE
+[19-10-7 5:39:18 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#WPNbcRg4ZNLZ_4PCAAAE
+[19-10-7 5:39:18 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#WPNbcRg4ZNLZ_4PCAAAE
+[19-10-7 5:39:18 P] warn) logout data.userid 없음.
+[19-10-7 5:39:18 P] info) 소켓접속 : "/SignalServer#z9q934WK7OP4eoRwAAAI"
+[19-10-7 5:41:14 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#z9q934WK7OP4eoRwAAAI
+[19-10-7 5:41:14 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#z9q934WK7OP4eoRwAAAI
+[19-10-7 5:41:14 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#z9q934WK7OP4eoRwAAAI
+[19-10-7 5:41:14 P] warn) logout data.userid 없음.
+[19-10-7 5:41:14 P] info) 소켓접속 : "/SignalServer#q1RrwBrRZX-ig03fAAAJ"
+[19-10-7 5:41:15 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#x02fHD29VaY1LIWSAAAF
+[19-10-7 5:41:15 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#x02fHD29VaY1LIWSAAAF
+[19-10-7 5:41:15 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#x02fHD29VaY1LIWSAAAF
+[19-10-7 5:41:15 P] warn) logout data.userid 없음.
+[19-10-7 5:41:15 P] info) 소켓접속 : "/SignalServer#0F8CAolu4G6cQEDtAAAK"
+[19-10-7 5:41:16 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#csB_EffXP3Bl0SZhAAAH
+[19-10-7 5:41:16 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#csB_EffXP3Bl0SZhAAAH
+[19-10-7 5:41:16 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#csB_EffXP3Bl0SZhAAAH
+[19-10-7 5:41:16 P] warn) logout data.userid 없음.
+[19-10-7 5:41:16 P] info) 소켓접속 : "/SignalServer#vT59ujG7CTzP1rD8AAAL"
+[19-10-7 5:41:17 P] info) [Socket : Disconnect Event] User Disconnection, Session Id is : /SignalServer#shqp5aTQEu8C4JXBAAAG
+[19-10-7 5:41:17 P] info) [Disconnect Event: Session realese] There is no data in redis  :  /SignalServer#shqp5aTQEu8C4JXBAAAG
+[19-10-7 5:41:17 P] warn) [Sync Server : getUserId] socketId가 Redis (SESSION_USER_SOCKET_INFO)에 없음, socketId : /SignalServer#shqp5aTQEu8C4JXBAAAG
+[19-10-7 5:41:17 P] warn) logout data.userid 없음.
+[19-10-7 5:41:17 P] info) 소켓접속 : "/SignalServer#iToVlUIPKOzOIJ0oAAAM"
