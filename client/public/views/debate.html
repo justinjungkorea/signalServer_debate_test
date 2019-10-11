@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>토론방</title>
+</head>
+<body>
+    <div id="memberlist">
+        <ul id="members">
+            <li id='person'>사회자</li>
+            <li id='personA'>참여자A</li>
+            <li id='personA'>참여자B</li>
+        </ul>
+    </div>
+    <div id="videoArea">
+        <video id="camera"></video>
+    </div>
+    <div id="chatArea">
+        <ul id="messages"></ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script src="../js/debate.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>전화걸기</title>
+</head>
+<body>
+    <div class='login'>
+        id : <input id='inputid' value='testconsult' /> <br />
+        pw : <input id='inputpw' type='password' value='test01' /> <br />
+        target : <input id='inputTarget' value='testuser' /> <br />
+        <button id='loginBtn'>로그인</button>
+        <button id='callBtn'>전화걸기</button>
+        <button id='exitBtn'>통화종료</button>
+    </div>
+    Local Video<br/>
+    <video id='localVideo' autoplay style='object-fit: fill;'></video><br/>
+    Remote Video<br/>
+    <video id='remoteVideo' autoplay style='object-fit: fill;'></video><br/>
+    <div id ='printBox'></div>
+    <script src='https://localhost:7511/socket.io/socket.io.js'></script>
+    <script src='../lib/common.js'></script>
+    <script src='../js/web.call.js'></script>
+</body>
+</html>

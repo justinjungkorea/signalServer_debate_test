@@ -90,7 +90,7 @@ exports.getUserSocketId = function(syncMaster, syncSlave, userId){
 exports.getUserId = function(syncMaster, syncSlave, socketId){
 	let userId;
 	return new Promise(function(resolved, rejected){
-		syncSlave.HGET('SESSION_USER_SOCKET_INFO', socketId, function(error, objString){
+		syncSlave.HGET('SESSION_USER_SOCKET_INFO', socketId, (error, objString) => {
 
 			console.log("2:::: objString ::::: ", objString);
 
@@ -553,7 +553,7 @@ function isYourSocket ( syncMaster, syncSlave, userId, socketId, cb ) {
 exports.isYourSocket = isYourSocket;
 
 //룸세팅
-exports.setRoom = function(syncMaster, syncSlave, roomId, serviceType, userId, userName, sessionId, reqDeviceType, targetId , initialRoomLength, userNumber){
+exports.setRoom = (syncMaster, syncSlave, roomId, serviceType, userId, userName, sessionId, reqDeviceType, targetId , initialRoomLength, userNumber) => {
 
 	if(!targetId) targetId = '';
 	console.log("rooms : ", roomId, serviceType, userId, sessionId, userName, reqDeviceType, userNumber);
@@ -571,12 +571,6 @@ exports.setRoom = function(syncMaster, syncSlave, roomId, serviceType, userId, u
 		'SCREEN'	     : { FLAG: false, USERID: null },
 	};
 
-	if(targetId.length === 1){
-		roomList.MULTITYPE = 'N';
-	} else {
-		roomList.MULTITYPE = 'Y';
-	}
-
 	roomList.USERS[userId] = {
 		'NAME'        : userName,
 		'DEVICE_TYPE' : reqDeviceType,
@@ -585,7 +579,7 @@ exports.setRoom = function(syncMaster, syncSlave, roomId, serviceType, userId, u
 
 	if(initialRoomLength) roomList.initialRoomLength = initialRoomLength + 1;
 
-	syncSlave.HGET('SESSION_USER_ID_INFO', userId, function(error, idObj){
+	syncSlave.HGET('SESSION_USER_ID_INFO', userId, (error, idObj) => {
 		let idObject = setObject(idObj);
 		try {
 			idObject.ROOM_ID = roomId;
@@ -596,7 +590,7 @@ exports.setRoom = function(syncMaster, syncSlave, roomId, serviceType, userId, u
 		syncMaster.HSET('SESSION_USER_ID_INFO', userId, setString(idObject));
 	});
 
-	syncSlave.HGET('SESSION_USER_SOCKET_INFO', sessionId, function(error, socketObj){
+	syncSlave.HGET('SESSION_USER_SOCKET_INFO', sessionId, (error, socketObj) => {
 		console.log('SESSION_USER_SOCKET_INFO : socketObj  :: ', socketObj);
 		let socketObject = setObject(socketObj);
 		try {
@@ -614,13 +608,13 @@ exports.setRoom = function(syncMaster, syncSlave, roomId, serviceType, userId, u
 };
 
 //룸에 사용자 추가(eventOp : Join)
-exports.enterRoom = function(syncMaster, syncSlave, roomId, userId, userName, sessionId, deviceType, status){
+exports.enterRoom = (syncMaster, syncSlave, roomId, userId, userName, sessionId, deviceType, status) => {
 	let enterObj = this;
-	return new Promise(function(resolved, rejected){
+	return new Promise((resolved, rejected) => {
 		console.log('ivypark - enterRoom -> ', roomId, userId, userName, sessionId, status);
 		if (status !== 'reject') {
 			if (status !== 'guest') {
-                syncSlave.HGET('SESSION_USER_ID_INFO', userId, function(error, idObj){
+                syncSlave.HGET('SESSION_USER_ID_INFO', userId, (error, idObj) => {
                     try {
                     	console.log('enterroom - idObj', idObj);
 						let idObject = setObject(idObj);
@@ -631,7 +625,7 @@ exports.enterRoom = function(syncMaster, syncSlave, roomId, userId, userName, se
                     }
                 });
 
-                syncSlave.HGET('SESSION_USER_SOCKET_INFO', sessionId, function(error, socketObj){
+                syncSlave.HGET('SESSION_USER_SOCKET_INFO', sessionId, (error, socketObj) => {
                     let socketObject = setObject(socketObj);
                     try {
                         console.log('enterroom - SESSION_USER_SOCKET_INFO', socketObj);
@@ -647,7 +641,7 @@ exports.enterRoom = function(syncMaster, syncSlave, roomId, userId, userName, se
                 syncMaster.HSET('SESSION_USER_SOCKET_INFO', sessionId, setString(socketIdData));
             }
 
-			syncSlave.HGET('ROOMS_INFO', roomId, function(error, obj){
+			syncSlave.HGET('ROOMS_INFO', roomId, (error, obj) => {
 				if(obj){
 					let roomObj = setObject(obj);
 					let roomJsonObj;
@@ -668,7 +662,7 @@ exports.enterRoom = function(syncMaster, syncSlave, roomId, userId, userName, se
 					}
 
 					roomJsonObj = setString(roomObj);
-					syncMaster.HSET('ROOMS_INFO', roomId, roomJsonObj, function(){
+					syncMaster.HSET('ROOMS_INFO', roomId, roomJsonObj, () => {
 					    let roomInfo = {
 					    	userList: [],
 							admin: {}
@@ -726,7 +720,7 @@ exports.setJoinFlag = function (syncMaster, syncSlave, roomId, userId, flag) {
 	});
 };
 
-
+//roomId 이용하여 Room 정보 가져오기
 exports.getRoom = function(syncSlave, roomId){
 	let _self = this;
 	return new Promise(function(resolved, rejected){
@@ -935,10 +929,11 @@ exports.setUsersRoomId = function(syncMaster, syncSlave, userId, socketId){
 	});
 };
 
-exports.getRoomId3 = function(syncMaster, syncSlave, sessionId){
+//sessionId로 roomId 가져오기
+exports.getRoomId3 = (syncMaster, syncSlave, sessionId) => {
 	console.log("getRoomId3 Function!!");
-	return new Promise(function(resolved, rejected){
-		syncSlave.HGET('SESSION_USER_SOCKET_INFO', sessionId, function(error, idObj){
+	return new Promise((resolved, rejected) => {
+		syncSlave.HGET('SESSION_USER_SOCKET_INFO', sessionId, (error, idObj) => {
 			try {
 				let idObject = setObject(idObj);
 				console.log(idObject);
@@ -952,10 +947,11 @@ exports.getRoomId3 = function(syncMaster, syncSlave, sessionId){
 	});
 }
 
-exports.getRoomId4 = function(syncMaster, syncSlave, userId){
+//userId로 roomId 가져오기
+exports.getRoomId4 = (syncMaster, syncSlave, userId) => {
 	console.log("getRoomId4 Function!!");
-	return new Promise(function(resolved, rejected){
-		syncSlave.HGET('SESSION_USER_ID_INFO', userId, function(error, idObj){
+	return new Promise((resolved, rejected) => {
+		syncSlave.HGET('SESSION_USER_ID_INFO', userId, (error, idObj) => {
 			try {
 				let idObject = setObject(idObj);
 				console.log(idObject);
@@ -968,37 +964,6 @@ exports.getRoomId4 = function(syncMaster, syncSlave, userId){
 		});
 	});
 }
-
-//룸아이디 가져오기
-exports.getRoomId = function(syncMaster, syncSlave, userId){
-	console.log("getRoomId Function!!");
-	return new Promise(function(resolved, rejected){
-		syncSlave.HGETALL('ROOMS_INFO', function(error, roomObj){
-			//console.log("roomObj : ", roomObj);
-			let roomId;
-			if(roomObj){
-				for(var roomKey in roomObj){
-
-					let roomObjUsers = setObject(roomObj[roomKey]).users;
-					for(var userKey in roomObjUsers){
-						if(userKey == userId){
-							roomId = roomKey;
-							//return;
-						}
-					}
-				}
-
-				if(roomId){
-					resolved(roomId)
-				}else{
-					rejected(roomId)
-				}
-			}else{
-				rejected(roomId);
-			}
-		});
-	});
-};
 
 //룸삭제
 exports.deleteRoom = function(syncMaster, syncSlave, roomId){
