@@ -22,7 +22,7 @@
     "nodemailer": "~4.4.1",
     "promise": "~8.0.1",
     "python": "0.0.4",
-    "redis": "~2.8.0",
+    "redis": "~3.1.1",
     "request": "~2.87.0",
     "sdp-jingle-json": "^3.1.0",
     "sendmail": "~1.2.0",
