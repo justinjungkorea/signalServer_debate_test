@@ -14,7 +14,7 @@
     "ini": "~1.3.5",
     "janus-gateway-js": "^0.8.1",
     "kurento-client": "git+https://github.com/Kurento/kurento-client-js.git#master",
-    "moment": "~2.19.1",
+    "moment": "~2.29.4",
     "morgan": "~1.9.0",
     "multer": "~1.3.0",
     "node-fcm": "~1.0.3",
